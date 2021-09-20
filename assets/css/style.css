@@ -11,3 +11,43 @@ body {
     font-weight: 300;
     background-color: #038C7F;
 }
+/* headings and logo */
+
+h1, h2 {
+    font-family: Architects Daughter, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: whitesmoke;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
