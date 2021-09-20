@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gluten:wght@300&display=swap');
 
-* {
+{
     margin: 0;
     padding: 0;
     border: none;
@@ -16,27 +16,31 @@ body {
 h1, h2 {
     font-family: Architects Daughter, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: whitesmoke;
+    letter-spacing: 6px;
+    color: #D2D8D9;
 }
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 300%;
     margin-left: 30px;
+    text-decoration: none;
 }
+
 #menu {
-    font-size: 110%;
+    font-size: 150%;
     letter-spacing: 4px;
 }
 
 #menu, #logo {
-    line-height: 75px;
+    line-height: 125px;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    color: #D2D8D9;
 }
 
 #menu a {
