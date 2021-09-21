@@ -50,11 +50,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 3px solid #F29F05;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 3px solid #F29F05;
 }
 
 #image {
