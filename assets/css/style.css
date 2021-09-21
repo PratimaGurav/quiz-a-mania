@@ -88,3 +88,7 @@ h1, h2 {
 .button:hover {
     background-color: #F29F05;
 }
+
+.highscores {
+    text-align: center;
+}
