@@ -92,3 +92,14 @@ h1, h2 {
 .highscores {
     text-align: center;
 }
+
+.help-div {
+    width: 100%;
+    max-width: 550px;
+    height: 100%;
+}
+.help-div h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
