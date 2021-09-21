@@ -63,10 +63,10 @@ h1, h2 {
     width: 30%;;
 }
 #container {
-    width: 90vw;
+    width: 20%;
     margin: 0 auto;
     padding: 2rem;
-    display: flex;
+    display: grid;
     margin-bottom: 1rem;
     border-radius: .5rem;
 }
@@ -80,5 +80,5 @@ h1, h2 {
     padding: .5rem;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 2rem;
 }
