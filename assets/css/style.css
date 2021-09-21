@@ -82,9 +82,9 @@ h1, h2 {
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
-    background-color: #F29F05;
+    background-color: #F25C05;
     color: #D2D8D9;
 }
 .button:hover {
-    color: #F25C05;
+    background-color: #F29F05;
 }
