@@ -62,3 +62,25 @@ h1, h2 {
     margin-right: auto;
     width: 30%;;
 }
+#container {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+
+
+.button {
+    margin: .5rem;
+    width: 15rem;
+    height: 3rem;
+    border: 3px solid;
+    border-radius: .2rem;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
