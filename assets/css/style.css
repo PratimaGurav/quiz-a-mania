@@ -85,3 +85,6 @@ h1, h2 {
     background-color: #F29F05;
     color: #D2D8D9;
 }
+.button:hover {
+    color: #F25C05;
+}
