@@ -18,6 +18,7 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #D2D8D9;
+    font-weight: bold;
 }
 
 #logo {
@@ -74,11 +75,13 @@ h1, h2 {
     margin: .5rem;
     width: 15rem;
     height: 3rem;
-    border: 3px solid;
-    border-radius: .2rem;
+    border: 3px outset #0B2126;
+    border-radius: 5px;
     text-align: center;
     padding: .5rem;
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
+    background-color: #F29F05;
+    color: #D2D8D9;
 }
