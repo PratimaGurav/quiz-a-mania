@@ -95,12 +95,18 @@ h1, h2 {
 
 .help-div {
     width: 100%;
-    max-width: 550px;
+    text-align: center;
     height: 100%;
     display: grid;
+    grid-template-rows: auto auto;
 }
 .help-div h2 {
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+#help-list {
+    color: #D2D8D9;
+    font-size: 1.5rem;
 }
