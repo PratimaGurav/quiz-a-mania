@@ -94,7 +94,8 @@ h1, h2 {
 }
 
 .help-div {
-    width: 100%;
+    width: 50%;
+    padding-top: 50px;
     text-align: center;
     height: 100%;
     display: grid;
@@ -106,9 +107,10 @@ h1, h2 {
     margin-bottom: 0;
 }
 
-#help-list {
+.help-list li {
     color: #D2D8D9;
     font-size: 1.5rem;
+    list-style-type: circle;
 }
 .form {
     color: #D2D8D9;
