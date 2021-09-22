@@ -59,9 +59,6 @@ h1, h2 {
 
 #image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;;
 }
 #container {
     width: 20%;
@@ -94,9 +91,7 @@ h1, h2 {
 }
 
 .help-div {
-    width: 50%;
-    padding-top: 50px;
-    text-align: center;
+    padding-top: 250px;
     height: 100%;
     display: grid;
     grid-template-rows: auto auto;
@@ -105,16 +100,20 @@ h1, h2 {
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0;
+    text-align: left;
 }
 
 .help-list li {
     color: #D2D8D9;
     font-size: 1.5rem;
     list-style-type: circle;
+    text-align: left;
 }
 .form {
     color: #D2D8D9;
-    font-size: 2rem;
-    text-align: center;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 550px;
+    padding-top: 50px;
 }
 
