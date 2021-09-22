@@ -97,6 +97,7 @@ h1, h2 {
     width: 100%;
     max-width: 550px;
     height: 100%;
+    display: grid;
 }
 .help-div h2 {
     font-size: 2rem;
