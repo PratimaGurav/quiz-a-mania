@@ -1,12 +1,44 @@
 {
-    "question": [
-        {
-            "Which flower does the spice saffron come from?"
-            1."Orchid"
-            2."Crocus"
-            3."Nasturtium"
-            4."Poppy"
-            correctAnswer"2"
-        }
-    ]
+    "questions": [
+    {
+     "question": "What is the scientific name of a butterfly?",
+         "answers": [
+         "Apis",
+         "Coleoptera",
+         "Formicidae",
+         "Rhopalocera"
+        ],
+     "correctIndex": 3
+    },
+    {
+     "question": "How hot is the surface of the sun?",
+         "answers": [
+         "1,233 K",
+         "5,778 K",
+         "12,130 K",
+         "101,300 K"
+         ],
+     "correctIndex": 1
+    },
+    {
+     "question": "'.MPG' extension refers usually to what kind of file?",
+         "answers": [
+         "WordPerfect Document file",
+         "MS Office document",
+         "Animation/movie file",
+         "Image file"
+         ],
+     "correctIndex": 3
+    },
+    {
+        "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+            "answers": [
+            "Oxygen",
+            "Hydrogen Sulphide",
+            "Carbon dioxide",
+            "Nitrogen"
+            ],
+        "correctIndex": 2
+       },
+        
 }
