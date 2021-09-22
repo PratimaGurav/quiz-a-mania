@@ -125,9 +125,15 @@ h1, h2 {
 .feedback-button {
     margin-top: 20px;
     border-radius: 5px;
-    padding: 5px 15px;
+    border: 3px outset #0B2126;
+    padding: 10px 35px;
     text-align: left;
-    font-size: 80%;
+    font-size: 90%;
     font-family: inherit;
+    background-color: #F25C05;
+    color: #D2D8D9;
 }
 
+.feedback-button:hover {
+    background-color: #F29F05;
+}
