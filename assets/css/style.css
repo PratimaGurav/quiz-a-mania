@@ -117,9 +117,9 @@ h1, h2 {
     padding-top: 50px;
 }
 .input {
-    height: 100px;
-    width: 200px;
-    margin-top: 30px;
+    height: 200px;
+    width: 500px;
+    margin-top: 20px;
 }
 
 .feedback-button {
@@ -127,6 +127,7 @@ h1, h2 {
     border-radius: 5px;
     padding: 5px 15px;
     text-align: left;
-    font-size: 100%;
+    font-size: 80%;
+    font-family: inherit;
 }
 
