@@ -1,6 +1,6 @@
 {
-    "questions": [
-    {
+  "questions": [
+     {
      "question": "What is the scientific name of a butterfly?",
          "answers": [
          "Apis",
@@ -9,8 +9,8 @@
          "Rhopalocera"
         ],
      "correctIndex": 3
-    },
-    {
+      },
+     {
      "question": "How hot is the surface of the sun?",
          "answers": [
          "1,233 K",
@@ -19,8 +19,8 @@
          "101,300 K"
          ],
      "correctIndex": 1
-    },
-    {
+     },
+     {
      "question": "'.MPG' extension refers usually to what kind of file?",
          "answers": [
          "WordPerfect Document file",
@@ -29,16 +29,27 @@
          "Image file"
          ],
      "correctIndex": 3
-    },
-    {
-        "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
-            "answers": [
-            "Oxygen",
-            "Hydrogen Sulphide",
-            "Carbon dioxide",
-            "Nitrogen"
-            ],
+     },
+     {
+     "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
+         "answers": [
+         "Oxygen",
+         "Hydrogen Sulphide",
+         "Carbon dioxide",
+         "Nitrogen"
+         ],
         "correctIndex": 2
-       },
-        
-}
+     },
+     {
+      "question": "What is 48,879 in hexidecimal?",
+         "answers": [
+         "0x18C1",
+         "0xBEEF",
+         "0xDEAD",
+         "0x12D591"
+        ],
+      "correctIndex": 1
+     }
+    ]
+}       
+
