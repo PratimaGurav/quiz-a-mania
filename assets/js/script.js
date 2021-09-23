@@ -36,7 +36,7 @@ startGame = () => {
 
 if(questionCounter >= maxQuestions) {
     localStorage.setItem('currentRoundScore', score);
-    return window.location.assign("./game-over.html");
+    return window.location.assign(".game-over.html");
 }
 //Updates Progress Bar
 questionCounter ++;

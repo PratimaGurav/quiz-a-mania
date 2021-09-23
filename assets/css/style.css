@@ -137,3 +137,35 @@ h1, h2 {
 .feedback-button:hover {
     background-color: #F29F05;
 }
+
+/*Questions page */
+.box {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.answer-container {
+    display: flex;
+    margin-bottom: .5rem;
+    width: 100%;
+    font-size: 1rem;
+    border: 3px outset #0B2126;
+    border-radius: 5px;
+}
+.answer-container :hover {
+    background-color: #F29F05;
+    cursor: pointer;
+}
+.answer-number {
+    background-color: #F25C05;
+    color: #D2D8D9;
+    padding: 1.5rem 2.5rem;
+}
+.answer-text {
+    padding: 1.5rem;
+    width: 100%;
+}
