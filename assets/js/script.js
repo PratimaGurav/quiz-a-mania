@@ -17,7 +17,7 @@ let questions = [];
 
 // Fetch questions from Json file
 
-fetch('./assets/js/questions.json')
+fetch('../assets/js/questions.json')
     .then(res => {
         return res.json();
     })

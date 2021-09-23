@@ -173,9 +173,10 @@ h1, h2 {
 /*Display*/
 #display {
     justify-content: space-around;
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: #D2D8D9;
 }
-
-
 /* Progress*/
 #progress {
     margin-top: 1.5rem;
@@ -184,12 +185,13 @@ h1, h2 {
 }
 #complete-progress {
     height: 1.5rem;
+    width: auto;
     background-color: #F25C05;
 }
 /* Score card*/
 #score-card {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: inherit;
     color: #D2D8D9;
-    text-align: center;
+    justify-content: space-around;
 }
