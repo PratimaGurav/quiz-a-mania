@@ -58,10 +58,10 @@ h1, h2 {
 }
 
 #image {
-    display: block;
+    justify-content: center;
 }
 #container {
-    width: 20%;
+    justify-content: center;
     margin: 0 auto;
     padding: 2rem;
     display: grid;
@@ -105,15 +105,15 @@ h1, h2 {
 
 .help-list li {
     color: #D2D8D9;
-    font-size: 1.5rem;
+    font-size: 1rem;
     list-style-type: circle;
     text-align: left;
 }
 .form {
     color: #D2D8D9;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: left;
-    padding-left: 550px;
+    padding-left: 700px;
     padding-top: 50px;
 }
 .input {
