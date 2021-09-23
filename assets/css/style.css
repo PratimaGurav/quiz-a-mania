@@ -172,7 +172,6 @@ h1, h2 {
 }
 /*Display*/
 #display {
-    display: flex;
     justify-content: space-around;
 }
 
@@ -180,12 +179,17 @@ h1, h2 {
 /* Progress*/
 #progress {
     margin-top: 1.5rem;
-    border: 0.5rem solid #0B2126;
+    border: 5px solid #0B2126;
     width: 10rem;
-    height: 1rem;
 }
 #complete-progress {
     height: 1.5rem;
-    width: auto;
     background-color: #F25C05;
+}
+/* Score card*/
+#score-card {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: #D2D8D9;
+    text-align: center;
 }
