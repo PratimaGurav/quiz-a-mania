@@ -1,55 +1,51 @@
-{
-  "questions": [
-     {
-     "question": "What is the scientific name of a butterfly?",
-         "answers": [
-         "Apis",
-         "Coleoptera",
-         "Formicidae",
-         "Rhopalocera"
-        ],
-     "correctIndex": 3
+[
+      {
+        "question": "What is the scientific name of a butterfly?",
+        "choice1": "Apis",
+        "choice2": "Coleoptera",
+        "choice3": "Formicidae",
+        "choice4":"Rhopalocera",
+        "answer": 3
       },
-     {
-     "question": "How hot is the surface of the sun?",
-         "answers": [
-         "1,233 K",
-         "5,778 K",
-         "12,130 K",
-         "101,300 K"
-         ],
-     "correctIndex": 1
-     },
-     {
-     "question": "'.MPG' extension refers usually to what kind of file?",
-         "answers": [
-         "WordPerfect Document file",
-         "MS Office document",
-         "Animation/movie file",
-         "Image file"
-         ],
-     "correctIndex": 3
-     },
-     {
-     "question": "Brass gets discoloured in air because of the presence of which of the following gases in air?",
-         "answers": [
-         "Oxygen",
-         "Hydrogen Sulphide",
-         "Carbon dioxide",
-         "Nitrogen"
-         ],
-        "correctIndex": 2
-     },
-     {
-      "question": "What is 48,879 in hexidecimal?",
-         "answers": [
-         "0x18C1",
-         "0xBEEF",
-         "0xDEAD",
-         "0x12D591"
-        ],
-      "correctIndex": 1
-     }
-    ]
-}       
+      {
+        "question": "How hot is the surface of the sun?",
+        "choice1": "1,233 K",
+        "choice2": "5,778 K",
+        "choice3": "12,130 K",
+        "choice4": "101,300 K",
+        "answer": 1
+      },
+      {
+        "question": "'.MPG' extension refers usually to what kind of file?",
+        "choice1": "WordPerfect Document file",
+        "choice2": "MS Office document",
+        "choice3": "Animation/movie file",
+        "choice4": "Image file",
+        "answer": 3
+      },
+      {
+        "question":"Brass gets discoloured in air because of the presence of which of the following gases in air?",
+        "choice1": "Oxygen",
+        "choice2": "Hydrogen Sulphide",
+        "choice3": "Carbon dioxide",
+        "choice4": "Nitrogen",
+        "answer": 2
+      },
+      {
+        "question": "The speed of your net access is defined in terms of...",
+        "choice1": "RAM",
+        "choice2": "MHz",
+        "choice3": "Kbps",
+        "choice4": "Megabytes",
+        "answer": 3
+      },
+      { 
+        "question": "Which country is the current champion of Uber Cup?",
+        "choice1": "Japan",
+        "choice2": "China",
+        "choice3": "Indonesia",
+        "choice4": "USA",
+        "answer": 1
 
+      }
+]
