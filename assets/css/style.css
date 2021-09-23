@@ -146,6 +146,7 @@ h1, h2 {
     height: 100%;
     max-width: 50%;
     margin: 0 auto;
+    padding-top: 200px;
 }
 
 .answer-container {
@@ -168,4 +169,23 @@ h1, h2 {
 .answer-text {
     padding: 1.5rem;
     width: 100%;
+}
+/*Display*/
+#display {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Progress*/
+#progress {
+    margin-top: 1.5rem;
+    border: 0.5rem solid #0B2126;
+    width: 10rem;
+    height: 1rem;
+}
+#complete-progress {
+    height: 1.5rem;
+    width: auto;
+    background-color: #F25C05;
 }

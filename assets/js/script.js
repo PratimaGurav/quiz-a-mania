@@ -1,4 +1,4 @@
-const questions = document.getElementById("question");
+const question = document.getElementById("question");
 const scoreCount = document.getElementById("score");
 const answers = Array.from(document.getElementsByClassName("answer-text"));
 const progressCount = document.getElementById("question-numbers");
@@ -10,7 +10,7 @@ let questionCounter = 0;
 let score = 0;
 let currentQuestion = {};
 let availableQuestions = [];
-let acceptAnswers = true;
+let acceptingAnswers = false;
 let questions = [];
 
 //Referred James Q Quick video on YouTube 
@@ -18,10 +18,12 @@ let questions = [];
 // Fetch questions from Json file
 
 fetch('./assets/js/questions.json')
-    .then(res => res.json())
-    .then(data => {
-        questions = data;
-        startGame()
+    .then(res => {
+        return res.json();
+    })
+    .then(loadedQuestions => {
+        questions = loadedQuestions;
+        startGame();
     })
     .catch((error) => {
         alert("Sorry, Unable to load questions.")
@@ -36,7 +38,7 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-if(questionCounter >= maxQuestions) {
+if(availableQuestions.lenght === 0 || questionCounter >= maxQuestions) {
     localStorage.setItem('currentRoundScore', score);
     return window.location.assign(".game-over.html");
 }
