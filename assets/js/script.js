@@ -1,8 +1,8 @@
-const question = document.getElementById("question");
-const scoreCount = document.getElementById("score");
-const choices = Array.from(document.getElementsByClassName("choice-text"));
-const displayProgress = document.getElementById("displayProgress");
-const progressFullBar = document.getElementById("complete-progress");
+const question = document.getElementById('question');
+const scoreCount = document.getElementById('score');
+const choices = Array.from(document.getElementsByClassName('choice-text'));
+const displayProgress = document.getElementById('displayProgress');
+const progressFullBar = document.getElementById('complete-progress');
 const correctScore = 20;
 const maxQuestions = 5;
 
@@ -10,7 +10,7 @@ let questionCounter = 0;
 let score = 0;
 let currentQuestion = {};
 let availableQuestions = [];
-let acceptingAnswers = false;
+let acceptAnswers = false;
 let questions = [];
 
 //Referred James Q Quick video on YouTube 
@@ -35,12 +35,12 @@ startGame = () => {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-}
+};
 
 getNewQuestion = () => {
 if(availableQuestions.lenght === 0 || questionCounter >= maxQuestions) {
     localStorage.setItem('currentRoundScore', score);
-    return window.location.assign("/game-over.html");
+    return window.location.assign('./game-over.html');
 }
 //Updates Progress Bar
 questionCounter ++;
@@ -67,13 +67,13 @@ acceptAnswers = true;
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
         if(!acceptAnswers) return; // if answer not accepted end the function.
-        acceptingAnswers = false; // set accept answers to false once an answer has been selected.
+        acceptAnswers = false; // set accept answers to false once an answer has been selected.
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
         const classToApply =
-        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect"; 
+        selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'; 
 
-        if (classToApply === "correct") {
+        if (classToApply === 'correct') {
             incrementScore(correctScore);
           }
       
@@ -88,7 +88,6 @@ choices.forEach((choice) => {
 
     incrementScore = num => {
     score += num;
-    scoreText.innerText = score;
+    scoreCount.innerText = score;
     };
   
-  startGame();
