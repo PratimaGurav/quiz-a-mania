@@ -4,11 +4,12 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Gluten, sans-serif;
-    font-weight: 300;
+    font-weight: 250;
     background-color: #008080;
 }
 /* headings and logo */
@@ -18,9 +19,8 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #D2D8D9;
-    font-weight: bold;
+    font-weight: 700;
 }
-
 #logo {
     float: left;
     font-size: 300%;
@@ -62,20 +62,31 @@ h1, h2 {
 }
 #container {
     justify-content: center;
+    align-items: center;
+    max-width: 80 rem;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
-    padding: 2rem;
-    display: grid;
-    margin-bottom: 1rem;
-    border-radius: .5rem;
 }
+.column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.center {
+    justify-content: center;
+    align-items: center;
+  }
+
 .button {
-    margin: .5rem;
+    margin-bottom: .5rem;
     width: 15rem;
     height: 3rem;
     border: 3px outset #0B2126;
     border-radius: 5px;
     text-align: center;
-    padding: .5rem;
+    padding: .5rem 0;
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
