@@ -5,8 +5,6 @@ const displayProgress = document.getElementById('displayProgress');
 const progressFullBar = document.getElementById('complete-progress');
 const correctScore = 10;
 const maxQuestions = 5;
-const highScoresList = document.getElementById("highScoresList");
-const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 let questionCounter = 0;
 let score = 0;
@@ -94,6 +92,8 @@ scoreCount.innerText = score;
 };
 
 // High Scores 
+const highScoresList = document.getElementById("highScoresList");
+const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 highScoresList.innerHTML = highScores
   .map(score => {
     return `<ol class="high-score">${score.name} - ${score.score}</ol>`;
