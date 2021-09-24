@@ -60,7 +60,7 @@ h1, h2 {
 #image {
     justify-content: center;
 }
-#container {
+.container {
     justify-content: center;
     align-items: center;
     max-width: 80 rem;
@@ -149,7 +149,7 @@ h1, h2 {
     background-color: #F29F05;
 }
 
-/*Questions page */
+Questions page 
 .box {
     justify-content: center;
     align-items: center;
@@ -159,8 +159,7 @@ h1, h2 {
     margin: 0 auto;
     padding-top: 200px;
 }
-
-.answer-container {
+.choice-container {
     display: flex;
     margin-bottom: .5rem;
     width: 100%;
@@ -168,16 +167,16 @@ h1, h2 {
     border: 3px outset #0B2126;
     border-radius: 5px;
 }
-.answer-container :hover {
+.choice-container:hover {
     background-color: #F29F05;
     cursor: pointer;
 }
-.answer-number {
+.choice-prefix {
     background-color: #F25C05;
     color: #D2D8D9;
     padding: 1.5rem 2.5rem;
 }
-.answer-text {
+.choice-text {
     padding: 1.5rem;
     width: 100%;
 }
