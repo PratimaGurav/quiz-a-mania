@@ -25,7 +25,7 @@ fetch('./assets/js/questions.json')
         startGame();
     })
     .catch((error) => {
-        alert("Sorry, Unable to load questions.");
+        console.error(error);
 });
 
 // Start game function
