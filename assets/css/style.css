@@ -212,3 +212,16 @@ Questions page
     color: #D2D8D9;
     justify-content: space-around;
 }
+
+/* High Scores */
+
+#highScoresList {
+    list-style: none;
+    margin-bottom: 5rem;
+    padding-left: 0;
+  }
+  
+.high-score {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }

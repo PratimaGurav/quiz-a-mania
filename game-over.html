@@ -29,10 +29,20 @@
           </ul>
         </nav>
       </header>
-      <!--main-->
+      <body>
+        <div class="container">
+          <div id="end" class="center column">
+            <h1 id="finalScore"></h1>
+            <form>
+              <input type="text" name="username" id="username" placeholder="username"/>
+              <button type="submit" class="buttotn" id="saveScore" 
+              onclick="saveHighScore(event)"disabled>Save</button>
+            </form>
+            <a class="buttton" href="question.html">Play Again</a>
+            <a class="button" href="index.html">Go Home</a>
+          </div>
+        </div>
          
-
-      
       <script src="assets/js/script.js"></script>
 </body>
 </html>
