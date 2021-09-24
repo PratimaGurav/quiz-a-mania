@@ -1,6 +1,6 @@
 const question = document.getElementById("question");
 const scoreCount = document.getElementById("score");
-const answers = Array.from(document.getElementsByClassName("answer-text"));
+const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressCount = document.getElementById("question-numbers");
 const progressFullBar = document.getElementById("complete-progress");
 const correctScore = 20;
@@ -40,7 +40,7 @@ startGame = () => {
 getNewQuestion = () => {
 if(availableQuestions.lenght === 0 || questionCounter >= maxQuestions) {
     localStorage.setItem('currentRoundScore', score);
-    return window.location.assign(".game-over.html");
+    return window.location.assign("/game-over.html");
 }
 //Updates Progress Bar
 questionCounter ++;
@@ -50,12 +50,12 @@ progressFullBar.style.width = `${(questionCounter/maxQuestions)* 100}%`;
 //Updates question and choices 
 const questionSelecter = Math.floor(Math.random() * availableQuestions.length);
 currentQuestion = availableQuestions[questionSelecter];
-questionText.innerText = currentQuestion.questions;
+question.innerText = currentQuestion.question;
 
 // Setting choices
-answers.forEach(answer => {
-    const number = answer.dataset['number'];
-    answer.innerText = currentQuestion['answer' + number];
+choices.forEach((choice) => {
+    const number = choice.dataset['number'];
+    choice.innerText = currentQuestion['choice' + number];
 });
 
 // Removing used questions
@@ -64,33 +64,23 @@ acceptAnswers = true;
 };
 
 // Attaching click event to all answers
-answers.forEach(answer => {
-    answer.addEventListener('click', e => {
+choices.forEach((choice) => {
+    choice.addEventListener('click', (e) => {
         if(!acceptAnswers) return; // if answer not accepted end the function.
-        acceptAnswers = false; // set accept answers to false once an answer has been selected.
-        const selectedOption = e.target;
-        const selectedAnswer = selectedOption.dataset['number'];
-
-        //Styling correct or incorrect answers choosen
-        let classToApply = selectedAnswer == currentQuestion.correctAnswer ? 'correct-answer' : 'wrong-answer';
-
-        if(classToApply == "correct-answer") {
-            increaseScore(correctScore);
-        } else {
-
-        }
-        e.preventDefault();
-        selectedOption.parentElement.classList.add(classToApply);
-        selectedOption.parentElement.classList.add("answer-hover");
+        acceptingAnswers = false; // set accept answers to false once an answer has been selected.
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
+        const classToApply =
+        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+  
+      selectedChoice.parentElement.classList.add(classToApply);
+  
     });
-
-    function increaseScore(total){
-        score += total;
-        scoreCount.innerText = score; 
-    }
 });
 
-
-
-
-
+    incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+    };
+  
+  startGame();
