@@ -3,22 +3,23 @@ const scoreCount = document.getElementById('score');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const displayProgress = document.getElementById('displayProgress');
 const progressFullBar = document.getElementById('complete-progress');
-const correctScore = 20;
+const correctScore = 10;
 const maxQuestions = 5;
+const highScoresList = document.getElementById("highScoresList");
+const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 let questionCounter = 0;
 let score = 0;
 let currentQuestion = {};
 let availableQuestions = [];
 let acceptAnswers = false;
-let questions = [];
 
 //Referred James Q Quick video on YouTube 
 
 // Fetch questions from Json file
-
-fetch('../assets/js/questions.json')
-    .then(res => {
+let questions = [];
+fetch('./assets/js/questions.json')
+    .then((res) => {
         return res.json();
     })
     .then(loadedQuestions => {
@@ -26,8 +27,8 @@ fetch('../assets/js/questions.json')
         startGame();
     })
     .catch((error) => {
-        alert("Sorry, Unable to load questions.")
-})
+        alert("Sorry, Unable to load questions.");
+});
 
 // Start game function
 startGame = () => {
@@ -86,8 +87,15 @@ choices.forEach((choice) => {
     });
 });
 
-    incrementScore = num => {
-    score += num;
-    scoreCount.innerText = score;
-    };
-  
+// Increment Score
+incrementScore = num => {
+score += num;
+scoreCount.innerText = score;
+};
+
+// High Scores 
+highScoresList.innerHTML = highScores
+  .map(score => {
+    return `<ol class="high-score">${score.name} - ${score.score}</ol>`;
+  })
+  .join("");
