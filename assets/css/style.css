@@ -164,7 +164,9 @@ Questions page
     display: flex;
     margin-bottom: .5rem;
     width: 100%;
+    color: #F1C2F2;
     font-size: 1rem;
+    
     border: 3px outset #0B2126;
     border-radius: 5px;
 }
