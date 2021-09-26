@@ -8,10 +8,10 @@
 }
 
 body {
-    background: url("..assets/images/purple-background.jpg");
+    background: url("../images/purple-background.jpg") center center;
+    background-size: cover;
     font-family: Gluten, sans-serif;
     font-weight: 250;
-    background-color: #008080;
 }
 /* headings and logo */
 
@@ -19,7 +19,7 @@ h1, h2 {
     font-family: Architects Daughter, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #D2D8D9;
+    color: #F1C2F2;
     font-weight: 700;
 }
 #logo {
@@ -42,7 +42,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    color: #D2D8D9;
+    color: #F1C2F2;
 }
 
 #menu a {
@@ -51,11 +51,11 @@ h1, h2 {
 }
 
 #menu a:hover {
-    border-bottom: 3px solid #F29F05;
+    border-bottom: 3px solid #68139D;
 }
 
 .active {
-    border-bottom: 3px solid #F29F05;
+    border-bottom: 3px solid #68139D;
 }
 
 #image {
@@ -91,11 +91,11 @@ h1, h2 {
     text-decoration: none;
     font-weight: bold;
     font-size: 2rem;
-    background-color: #F25C05;
-    color: #D2D8D9;
+    background-color: #39006D;
+    color: #F1C2F2;
 }
 .button:hover {
-    background-color: #F29F05;
+    background-color: #68139D;
 }
 
 .highscores {
@@ -116,13 +116,13 @@ h1, h2 {
 }
 
 .help-list li {
-    color: #D2D8D9;
+    color: #F1C2F2;
     font-size: 1rem;
     list-style-type: circle;
     text-align: left;
 }
 .form {
-    color: #D2D8D9;
+    color: #F1C2F2;
     font-size: 1rem;
     text-align: left;
     padding-left: 700px;
@@ -142,12 +142,12 @@ h1, h2 {
     text-align: left;
     font-size: 2rem;
     font-family: inherit;
-    background-color: #F25C05;
-    color: #D2D8D9;
+    background-color: #39006D;
+    color: #F1C2F2;
 }
 
 .feedback-button:hover {
-    background-color: #F29F05;
+    background-color: #68139D;
 }
 
 Questions page 
@@ -169,12 +169,12 @@ Questions page
     border-radius: 5px;
 }
 .choice-container:hover {
-    background-color: #F29F05;
+    background-color: #68139D;
     cursor: pointer;
 }
 .choice-prefix {
-    background-color: #F25C05;
-    color: #D2D8D9;
+    background-color: #39006D;
+    color: #F1C2F2;
     padding: 1.5rem 2.5rem;
 }
 .choice-text {
@@ -186,7 +186,7 @@ Questions page
     justify-content: space-around;
     font-size: 1.5rem;
     font-family: inherit;
-    color: #D2D8D9;
+    color: #F1C2F2;
 }
 .display-prefix {
     font-size: 1.5rem;
@@ -204,13 +204,13 @@ Questions page
 #complete-progress {
     height: 1.5rem;
     width: auto;
-    background-color: #F25C05;
+    background-color: #39006D;
 }
 /* Score card*/
 #score-card {
     font-size: 2rem;
     font-family: inherit;
-    color: #D2D8D9;
+    color: #F1C2F2;
     justify-content: space-around;
 }
 
