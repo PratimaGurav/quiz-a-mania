@@ -70,7 +70,7 @@ choices.forEach((choice) => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
         const classToApply =
-        selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'; 
+        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect"; 
 
         if (classToApply === 'correct') {
             incrementScore(correctScore);

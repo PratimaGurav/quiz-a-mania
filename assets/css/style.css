@@ -92,7 +92,7 @@ h2 {
     margin-bottom: .5rem;
     width: 15rem;
     height: 3rem;
-    border: 3px outset #0B2126;
+    border: 3px outset #270140;
     border-radius: 5px;
     text-align: center;
     padding: .5rem 0;
@@ -101,6 +101,7 @@ h2 {
     font-size: 2rem;
     background-color: #AC4ADC;
     color: #F1C2F2;
+    font-family: inherit
 }
 .button:hover {
     background-color: #68139D;
@@ -145,7 +146,7 @@ h2 {
 .feedback-button {
     margin-top: 20px;
     border-radius: 5px;
-    border: 3px outset #0B2126;
+    border: 3px outset #270140;
     padding: 10px 35px;
     text-align: left;
     font-size: 2rem;
@@ -180,10 +181,11 @@ Questions page
 .choice-container:hover {
     background-color: #68139D;
     cursor: pointer;
+    transform: translateY(4px);/* Reference w3school button animation*/
+    transition: transform 250ms;
 }
 .choice-container:active {
-    background-color: #68139D;
-    transform: translateY(4px);/* Reference w3school button animation*/
+    background-color: #68139D; 
 }
 .choice-prefix {
     background-color: #AC4ADC;
@@ -194,6 +196,14 @@ Questions page
     padding: 1.5rem;
     width: 100%;
 }
+.correct {
+    background-color: #18FA6A;
+}
+.incorrect {
+    background-color: #D63009;
+}
+
+
 /*Display*/
 #display {
     justify-content: space-around;
@@ -212,7 +222,7 @@ Questions page
 /* Progress*/
 #progress {
     margin-top: 1.5rem;
-    border: 5px solid #0B2126;
+    border: 5px solid #270140;
     width: 10rem;
 }
 #complete-progress {
