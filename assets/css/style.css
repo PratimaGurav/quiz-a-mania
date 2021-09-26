@@ -89,9 +89,9 @@ h1, h2 {
     text-align: center;
     padding: .5rem 0;
     text-decoration: none;
-    font-weight: bold;
+    font-weight:400;
     font-size: 2rem;
-    background-color: #39006D;
+    background-color: #AC4ADC;
     color: #F1C2F2;
 }
 .button:hover {
@@ -142,7 +142,7 @@ h1, h2 {
     text-align: left;
     font-size: 2rem;
     font-family: inherit;
-    background-color: #39006D;
+    background-color: #AC4ADC;
     color: #F1C2F2;
 }
 
@@ -173,7 +173,7 @@ Questions page
     cursor: pointer;
 }
 .choice-prefix {
-    background-color: #39006D;
+    background-color: #AC4ADC;
     color: #F1C2F2;
     padding: 1.5rem 2.5rem;
 }
@@ -204,7 +204,7 @@ Questions page
 #complete-progress {
     height: 1.5rem;
     width: auto;
-    background-color: #39006D;
+    background-color: #AC4ADC;
 }
 /* Score card*/
 #score-card {
