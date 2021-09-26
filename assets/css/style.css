@@ -181,8 +181,8 @@ Questions page
 .choice-container:hover {
     background-color: #68139D;
     cursor: pointer;
-    transform: translateY(4px);/* Reference w3school button animation*/
-    transition: transform 250ms;
+    transform: translateY(-0.1rem);/* Reference w3school button animation*/
+    transition: transform 150ms;
 }
 .choice-container:active {
     background-color: #68139D; 
@@ -232,10 +232,22 @@ Questions page
 }
 /* Score card*/
 #score-card {
-    font-size: 2rem;
+    width: 100%;
     font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: #F1C2F2;
     justify-content: space-around;
+}
+
+#username {
+    margin-bottom: 1rem;
+    width: 15rem;
+    height: 3rem;
+    font-weight:400;
+    font-size: 1.5rem;
+    padding: 2rem;
 }
 
 /* High Scores */

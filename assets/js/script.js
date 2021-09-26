@@ -69,16 +69,14 @@ choices.forEach((choice) => {
         acceptAnswers = false; // set accept answers to false once an answer has been selected.
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
-        const classToApply =
-        selectedAnswer == currentQuestion.answer ? "correct" : "incorrect"; 
+        const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'; 
 
-        if (classToApply === 'correct') {
-            incrementScore(correctScore);
-          }
+        if (classToApply == 'correct') {incrementScore(correctScore)
+            ;}
       
           selectedChoice.parentElement.classList.add(classToApply);
       
-          setTimeout(() => {
+        setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
           }, 1000);
