@@ -165,14 +165,17 @@ Questions page
     margin-bottom: .5rem;
     width: 100%;
     color: #F1C2F2;
-    font-size: 1rem;
-    
-    border: 3px outset #0B2126;
+    font-size: 2rem;
+    border: 4px outset #C2A91D;
     border-radius: 5px;
 }
 .choice-container:hover {
     background-color: #68139D;
     cursor: pointer;
+}
+.choice-container:active {
+    background-color: #68139D;
+    transform: translateY(4px); /*Reference w3school button animation*/
 }
 .choice-prefix {
     background-color: #AC4ADC;
