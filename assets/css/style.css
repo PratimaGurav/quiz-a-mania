@@ -15,13 +15,21 @@ body {
 }
 /* headings and logo */
 
-h1, h2 {
+h1 {
     font-family: Architects Daughter, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #F1C2F2;
     font-weight: 700;
 }
+
+h2 {
+    font-family: Architects Daughter, sans-serif;
+    letter-spacing: 6px;
+    color: #F1C2F2;
+    font-weight: 700;
+}
+
 #logo {
     float: left;
     font-size: 300%;
@@ -175,7 +183,7 @@ Questions page
 }
 .choice-container:active {
     background-color: #68139D;
-    transform: translateY(4px); Reference w3school button animation
+    transform: translateY(4px);/* Reference w3school button animation*/
 }
 .choice-prefix {
     background-color: #AC4ADC;

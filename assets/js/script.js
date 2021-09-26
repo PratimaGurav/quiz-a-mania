@@ -3,7 +3,7 @@ const scoreCount = document.getElementById('score');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const displayProgress = document.getElementById('displayProgress');
 const progressFullBar = document.getElementById('complete-progress');
-const correctScore = 10;
+const correctScore = 20;
 const maxQuestions = 5;
 
 let questionCounter = 0;
