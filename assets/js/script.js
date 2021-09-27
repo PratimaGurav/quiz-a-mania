@@ -38,7 +38,7 @@ startGame = () => {
 
 getNewQuestion = () => {
 if(availableQuestions.lenght === 0 || questionCounter >= maxQuestions) {
-    localStorage.setItem('currentRoundScore', score);
+    localStorage.setItem('mostRecentScore', score);
     return window.location.assign('./game-over.html');
 }
 //Updates Progress Bar
@@ -89,11 +89,3 @@ score += num;
 scoreCount.innerText = score;
 };
 
-// High Scores 
-const highScoresList = document.getElementById("highScoresList");
-const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
-highScoresList.innerHTML = highScores
-  .map(score => {
-    return `<ol class="high-score">${score.name} - ${score.score}</ol>`;
-  })
-  .join("");
