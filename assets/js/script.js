@@ -24,8 +24,8 @@ fetch('./assets/js/questions.json')
         questions = loadedQuestions;
         startGame();
     })
-    .catch((error) => {
-        console.error(error);
+    .catch((err) => {
+        console.error(err);
 });
 
 // Start game function
