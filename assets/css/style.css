@@ -28,6 +28,7 @@ h2 {
     letter-spacing: 6px;
     color: #F1C2F2;
     font-weight: 700;
+    font-size: 2.5rem;
 }
 
 #logo {
@@ -60,6 +61,7 @@ h2 {
 
 #menu a:hover {
     border-bottom: 3px solid #68139D;
+    cursor: pointer;
 }
 
 .active {
@@ -159,7 +161,7 @@ h2 {
     background-color: #68139D;
 }
 
-Questions page 
+/*Questions page*/
 .box {
     justify-content: center;
     align-items: center;
@@ -174,7 +176,7 @@ Questions page
     margin-bottom: .5rem;
     width: 100%;
     color: #F1C2F2;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: 4px outset #C2A91D;
     border-radius: 5px;
 }
@@ -211,6 +213,7 @@ Questions page
     font-family: inherit;
     color: #F1C2F2;
     display: flex;
+    margin: 80px 0px 40px;
 }
 .display-prefix {
     font-size: 1.5rem;
