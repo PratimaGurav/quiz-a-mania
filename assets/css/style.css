@@ -128,9 +128,10 @@ h2 {
 
 .help-list li {
     color: #F1C2F2;
-    font-size: 1rem;
+    font-size: 1.5rem;
     list-style-type: circle;
     text-align: left;
+    font-weight: 400;
 }
 .form {
     color: #F1C2F2;
