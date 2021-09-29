@@ -9,7 +9,7 @@ highScoresList.innerHTML =  highScores
 
 // Clear highScore
 function clearScores() {
-    if (confirm("Clear the high scores.") == true) {
+    if (confirm("Do you want to clear the high scores ?") == true) {
         localStorage.clear();
         return window.location.assign('./highscore.html');
     }
