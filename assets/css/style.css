@@ -232,10 +232,10 @@ h2 {
 #username {
     margin-bottom: 1rem;
     width: 15rem;
-    height: 3rem;
-    font-weight:400;
-    font-size: 1.5rem;
-    padding: 2rem;
+    height: 2rem;
+    font-weight:200;
+    font-size:.8rem;
+    padding: 1.5rem;
 }
 
 /* High Scores */
@@ -244,6 +244,7 @@ h2 {
     list-style: none;
     margin-bottom: 5rem;
     padding-left: 0;
+    color: #F1C2F2;
   }
   
 .high-score {
