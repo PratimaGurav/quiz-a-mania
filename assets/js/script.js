@@ -29,7 +29,7 @@ fetch('./assets/js/questions.json')
 });
 
 // Start game function
-startGame = () => {
+function startGame() {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
