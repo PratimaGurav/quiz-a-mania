@@ -47,5 +47,109 @@
         "choice4": "USA",
         "answer": 1
 
+      },
+      { 
+        "question": "What is part of a database that holds only one type of information?",
+        "choice1": "Report",
+        "choice2": "Field",
+        "choice3": "Record",
+        "choice4": "File",
+        "answer": 2
+      },
+      { 
+        "question": "What's a web browser?",
+        "choice1": "A kind of spider",
+        "choice2": "A computer that stores WWW files",
+        "choice3": "A person who likes to look at websites",
+        "choice4": "A software program that allows you to access sites on the World Wide Web",
+        "answer": 4
+      },
+      { 
+        "question": "How many bits make a byte?",
+        "choice1": "4",
+        "choice2": "8",
+        "choice3": "16",
+        "choice4": "32",
+        "answer": 2
+      },
+      { 
+        "question": "Electric bulb filament is made of?",
+        "choice1": "Copper",
+        "choice2": "Aluminum",
+        "choice3": "Lead",
+        "choice4": "Tungsten",
+        "answer": 4
+      },
+      { 
+        "question": "Light year is a measurement of?",
+        "choice1": "Speed of aeroplanes",
+        "choice2": "Speed of light",
+        "choice3": "Stellar distances",
+        "choice4": "Speed of rockets",
+        "answer": 3
+      },
+      { 
+        "question": "Which are Most highly intelligent mammals?",
+        "choice1": "Whales",
+        "choice2": "Dolphins",
+        "choice3": "Elephants",
+        "choice4": "Kangaroos",
+        "answer": 2
+      },
+      { 
+        "question": "Where are the headquarters of World Chess Federation?",
+        "choice1": "Switzerland",
+        "choice2": "Russia",
+        "choice3": "Greece",
+        "choice4": "Turkey",
+        "answer": 3
+      },
+      { 
+        "question": "Which country’s national football team is nicknamed as “La Albiceleste (The White and Sky Blues)?",
+        "choice1": "Uruguay",
+        "choice2": "Brazil",
+        "choice3": "Argentina",
+        "choice4": "Italy",
+        "answer": 3
+      },
+      { 
+        "question": "Which flower does the spice saffron come from?",
+        "choice1": "Orchid",
+        "choice2": "Crocus",
+        "choice3": "Poppy",
+        "choice4": "Nasturtium",
+        "answer": 2
+      },
+      { 
+        "question": "In Indonesian and Malay cuisine what does the word ‘nasi’ refer to?",
+        "choice1": "Rice",
+        "choice2": "Egg",
+        "choice3": "Bread",
+        "choice4": "Curry",
+        "answer": 1
+      },
+      { 
+        "question": "Which French city is known for the fish stew Bouillabaisse?",
+        "choice1": "Nice",
+        "choice2": "Marseille",
+        "choice3": "Paris",
+        "choice4": "Bordeaux",
+        "answer": 2
+      },
+      { 
+        "question": "Which of these cocktails does NOT typically include gin?",
+        "choice1": "Bramble",
+        "choice2": "Collins",
+        "choice3": "Gimlet",
+        "choice4": "Cosmopolitan",
+        "answer": 4
+      },
+      { 
+        "question": "Which of the following is NOT a country capital?",
+        "choice1": "Berlin",
+        "choice2": "Melbourne",
+        "choice3": "New Delhi",
+        "choice4": "London",
+        "answer": 2
       }
 ]
