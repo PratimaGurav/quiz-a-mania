@@ -8,8 +8,8 @@ highScoresList.innerHTML =  highScores
 .join('');
 
 // Clear highScore
-function clearScore() {
-    if (confirm == true) {
+function clearScores() {
+    if (confirm("Clear the high scores.") == true) {
         localStorage.clear();
         return window.location.assign('./highscore.html');
     }
