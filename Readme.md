@@ -29,29 +29,45 @@
 ## User Experience (UX)
 
 -   ### Site Goals
-     Quiz-a-mania is a fun interactive site front-end site. The quiz is set to test General Knowledge with multiple choice questions. Gain points on every correct answer and achieve high-score. Enter username to log your highscores and have fun.
-     Site does not targets specific 
+     Quiz-a-mania is a interactive website which enables users to play quiz by answering a fixed set of questions. The quiz is set to test General Knowledge of users with multiple choice questions. You score for every correct answer with an option to submit your score and rank yourself on the high scores by providing your username.
+
+-   ### Target Audience    
+      The site is targetted to everyone who love to play online quiz with an aim to score high. 
+      People of all ages from different background can play this fun and interactive quiz.
+
      
 
 -   ### User stories
 
     -   #### First Time Visitor
+    1. I would like to play a fun quiz that would test my knowledge.
+    2. I would like to know how I rank on the High Scores.
+    3. I want a quiz that is easy to play.
        
 
     -   #### Returning Visitor
+    1. I would like to play a fun quiz that would test my knowledge with few new set of questions.
+    2. I would like to access the application easily.
+    3. I would like to know the High scores quickly.
          
 
     -   #### Frequent User 
+    1. I would like to have sufficient questions to kep me interested.
+    2. I would like to increase my knowledge while playing the quiz.
+    3. I would like to give feedback if needed. 
         
 
 -   ### Design
     -   #### Colour Scheme
+        The main colours used are 
           
     
-    -   #### Typography     
+    -   #### Typography 
+        Gluten font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Architects Daughter is used for headings with Sans Serif as the fallback.    
         
 
     -   #### Imagery
+        Background image is used to strike and catch users attentions.
          
 
 *   ### Wireframes
