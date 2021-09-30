@@ -151,5 +151,94 @@
         "choice3": "New Delhi",
         "choice4": "London",
         "answer": 2
+      },
+      { 
+        "question": "Floor exercise, vault, and uneven bars are events in which sport?",
+        "choice1": "Synchronised Swimming",
+        "choice2": "Gymnastics",
+        "choice3": "Skating",
+        "choice4": "Wrestling",
+        "answer": 2
+      },
+      { 
+        "question": "Which among these is an Island country?",
+        "choice1": "Yemen",
+        "choice2": "Maldives",
+        "choice3": "Oman",
+        "choice4": "Peru",
+        "answer": 2
+      },
+      { 
+        "question": "What do the five rings of the Olympics represent?",
+        "choice1": "Five games",
+        "choice2": "Five languages",
+        "choice3": "Five continents",
+        "choice4": "Five oceans",
+        "answer": 3
+      },
+      { 
+        "question": "Lockjaw is a symptom of which of these disease?",
+        "choice1": "Tetanus",
+        "choice2": "Cholera",
+        "choice3": "Plague",
+        "choice4": "Diphtheria",
+        "answer": 1
+      },
+      { 
+        "question": "Which of these brands of pens is named after highest peak in Western Europe?",
+        "choice1": "Reynolds",
+        "choice2": "Montblanc",
+        "choice3": "Faber-Castell",
+        "choice4": "Sheaffer",
+        "answer": 2
+      },
+      { 
+        "question": "Which of these is the name of an island as well as a type of coffee?",
+        "choice1": "Mocha",
+        "choice2": "Arabica",
+        "choice3": "Java",
+        "choice4": "Oolong",
+        "answer": 3
+      },
+      { 
+        "question": "In which edition of the Olympics did women participate for the first time?",
+        "choice1": "Paris, 1900",
+        "choice2": "London, 1908",
+        "choice3": "Antwerp, 1920",
+        "choice4": "Berlin, 1916",
+        "answer": 1
+      },
+      { 
+        "question": "Which of these is the name for a kind of shot in badminton?",
+        "choice1": "Bounce",
+        "choice2": "Yorker",
+        "choice3": "Bout",
+        "choice4": "Drop",
+        "answer": 4
+      },
+      { 
+        "question": "Which canal connects Pacific Ocean and Atlantic Ocean?",
+        "choice1": "Panama Canal",
+        "choice2": "Suez Canal",
+        "choice3": "Kiel Canal",
+        "choice4": "Houston Ship Canal",
+        "answer": 1
+      },
+      { 
+        "question": "What does HTML stand for?",
+        "choice1": "Hyper Text Main Language",
+        "choice2": "Hyper Text MarkUp Language",
+        "choice3": "Hyper Transform MarkUp Language",
+        "choice4": "High Text MarkUp Language",
+        "answer": 2
+      },
+      { 
+        "question": "What US president formed the United Nations?",
+        "choice1": "Jimmy Carter",
+        "choice2": "Harry S. Truman",
+        "choice3": "Woodrow Wilson",
+        "choice4": "Franklin D. Roosevelt",
+        "answer": 4
       }
+      
 ]
