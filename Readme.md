@@ -29,6 +29,8 @@
 ## User Experience (UX)
 
 -   ### Site Goals
+     Quiz-a-mania is a fun interactive site front-end site. The quiz is set to test General Knowledge with multiple choice questions. Gain points on every correct answer and achieve high-score. Enter username to log your highscores and have fun.
+     Site does not targets specific 
      
 
 -   ### User stories
