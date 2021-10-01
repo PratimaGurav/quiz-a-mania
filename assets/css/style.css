@@ -116,10 +116,9 @@ h2 {
 .help-div {
     justify-content: center;
     align-items: center;
-    height: 30vh;
-    width: 100vw;
+    height: 50vh;
+    width: 30vw;
     margin: 0 auto;
-    display: flex;
     
 }
 .help-div h2 {
@@ -136,7 +135,7 @@ h2 {
     text-align: left;
     font-weight: 400;
 }
-.form {
+form {
     color: #F1C2F2;
     font-size: 1rem;
     text-align: left;
