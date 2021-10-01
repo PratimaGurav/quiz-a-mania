@@ -32,7 +32,7 @@
      Quiz-a-mania is a interactive website which enables users to play quiz by answering a fixed set of questions. The quiz is set to test General Knowledge of users with multiple choice questions. You score for every correct answer with an option to submit your score and rank yourself on the high scores by providing your username.
 
 -   ### Target Audience    
-      The site is targetted to everyone who love to play online quiz with an aim to score high. 
+      The site is targetted to everyone who loves to play online quiz with an aim to score high. 
       People of all ages from different background can play this fun and interactive quiz.
 
      
@@ -76,9 +76,22 @@
     
 ## Features
 
- ### Existing Features
+ ### Existing Features: 
+   
+    The scope of Quiz-a-mania has been created with following features :
+     1. Interactive Quiz Application.
+     2. Ability to submit scores to High-Scores.
+     3. Fully responsive design.
+     4. Easy navigation bar with completely responsive.
+     5. Help page with instructions on how to play.
+     6. Simplified feedback form.
 
    - __Navigation Bar__
+
+      Navigation menu with links to different pages within the application. Navigation menu is same on all pages for simplicity and easy navigation.
+      Play button to start the quiz.
+      High scores to see the saved high scores.
+      Help to know the instructions of the game.
 
    - __Home Page__
    
