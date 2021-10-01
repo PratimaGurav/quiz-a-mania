@@ -148,14 +148,11 @@ form {
 }
 
 /*Questions page*/
-.box {
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    max-width: 50%;
+#question {
     margin: 0 auto;
-    padding-top: 500px; 
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 1rem;
 }
 .choice-container {
     display: flex;
@@ -165,6 +162,8 @@ form {
     font-size: 1.5rem;
     border: 4px outset #C2A91D;
     border-radius: 5px;
+    max-width: 50%;
+    margin: .2rem auto;
 }
 .choice-container:hover {
     background-color: #68139D;
