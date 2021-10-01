@@ -11,11 +11,10 @@ let score = 0;
 let currentQuestion = {};
 let availableQuestions = [];
 let acceptAnswers = false;
-
+let questions = [];
 //Referred James Q Quick video on YouTube 
 
 // Fetch questions from Json file
-let questions = [];
 fetch('./assets/js/questions.json')
     .then((res) => {
         return res.json();
@@ -71,10 +70,11 @@ choices.forEach((choice) => {
         const selectedAnswer = selectedChoice.dataset['number'];
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'; 
 
-        if (classToApply == 'correct') {incrementScore(correctScore)
-            ;}
+        if (classToApply == 'correct') {
+            incrementScore(correctScore);
+        }
       
-          selectedChoice.parentElement.classList.add(classToApply);
+        selectedChoice.parentElement.classList.add(classToApply);
       
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
@@ -83,9 +83,9 @@ choices.forEach((choice) => {
     });
 });
 
-// Increment Score
-incrementScore = num => {
-score += num;
-scoreCount.innerText = score;
-};
+        // Increment Score
+        incrementScore = num => {
+        score += num;
+        scoreCount.innerText = score;
+        };
 
