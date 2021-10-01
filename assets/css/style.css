@@ -60,12 +60,12 @@ h2 {
 }
 
 #menu a:hover {
-    border-bottom: 3px solid #68139D;
+    border-bottom: 3px solid #C2A91D;
     cursor: pointer;
 }
 
-.active {
-    border-bottom: 3px solid #68139D;
+.active-nav {
+    border-bottom: 3px solid #C2A91D;
 }
 
 #image {
@@ -94,7 +94,7 @@ h2 {
     margin-bottom: .5rem;
     width: 15rem;
     height: 3rem;
-    border: 3px outset #270140;
+    border: 3px outset #C2A91D;
     border-radius: 5px;
     text-align: center;
     padding: .5rem 0;
@@ -211,7 +211,7 @@ form {
 /* Progress*/
 #progress {
     margin-top: 1.5rem;
-    border: 5px solid #270140;
+    border: 5px solid #C2A91D;
     width: 10rem;
 }
 #complete-progress {
