@@ -153,6 +153,7 @@ form {
     text-align: center;
     text-transform: none;
     margin-bottom: 1rem;
+    max-width: 80%;
 }
 .choice-container {
     display: flex;
