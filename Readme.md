@@ -88,20 +88,37 @@
 
    - __Navigation Bar__
 
-      Navigation menu with links to different pages within the application. Navigation menu is same on all pages for simplicity and easy navigation.
-      Play button to start the quiz.
-      High scores to see the saved high scores.
-      Help to know the instructions of the game.
+      Navigation menu with links to different pages within the application. It is same on all pages for simplicity and easy navigation.
+      - Play button to start the quiz.
+      - High scores to see the saved high scores.
+      - Help to know the instructions of the game.
 
    - __Home Page__
+
+      A logo mentioning the application name and navigation bar.
    
-   - __Questions__
+   - __Quiz__
+      
+      - The counter mentioning which question you are at currently.
+      - Your current score.
+      - The question which has to be answered.
+      - 4 options to select from, out of which one is correct.
      
    - __Game Over__ 
+      - Your score at the end of the game.
+      - Text field to enter your username.
+      - Save button to save your High scores.
+      - Play again button to start the quiz again
      
    - __High Scores__ 
+     - Displays list of top 10 high scores in descending order of ranking.
+     - Play button to start the quiz.
+     - Clear Scores to clear the high scores.
 
    - __Help__ 
+     - Instructions on how to play the quiz.
+     - Feedback form to provide the feedback.
+
 
 ## Technologies Used
 
