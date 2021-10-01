@@ -130,7 +130,7 @@
   -   [JSON](https://en.wikipedia.org/wiki/JSON)
   -   [MARKDOWN](https://en.wikipedia.org/wiki/Markdown)
 
-- ### Frameworks, Libraries & Programs Used
+- ### Frameworks, Libraries & Other Technologies used
 
   - [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
@@ -180,7 +180,7 @@
   - ### Media
     Background image used within this site is free and do not incur any copyright issues. This image has been provided by following website:
   
-    - [Pixabay](https://pixabay.com/)
+    - [Pixabay](https://pixabay.com/illustrations/purple-abstract-background-1780371/)
         
    
 
