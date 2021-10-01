@@ -61,10 +61,9 @@ h2 {
 
 #menu a:hover {
     border-bottom: 3px solid #C2A91D;
-    cursor: pointer;
 }
 
-.active-nav {
+.active {
     border-bottom: 3px solid #C2A91D;
 }
 
