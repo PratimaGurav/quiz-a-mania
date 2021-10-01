@@ -24,7 +24,7 @@
         "answer": 3
       },
       {
-        "question":"Brass gets discoloured in air because of the presence of which of the following gases in air?",
+        "question":"Brass gets discoloured in air because of the presence of which gas?",
         "choice1": "Oxygen",
         "choice2": "Hydrogen Sulphide",
         "choice3": "Carbon dioxide",
@@ -223,14 +223,6 @@
         "choice3": "Kiel Canal",
         "choice4": "Houston Ship Canal",
         "answer": 1
-      },
-      { 
-        "question": "What does HTML stand for?",
-        "choice1": "Hyper Text Main Language",
-        "choice2": "Hyper Text MarkUp Language",
-        "choice3": "Hyper Transform MarkUp Language",
-        "choice4": "High Text MarkUp Language",
-        "answer": 2
       },
       { 
         "question": "What US president formed the United Nations?",
