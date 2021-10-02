@@ -171,9 +171,9 @@ form {
     transform: translateY(-0.1rem);/* Reference w3school button animation*/
     transition: transform 150ms;
 }
-.choice-container:active {
+/*.choice-container:active {
     background-color: #68139D; 
-}
+}*/
 .choice-prefix {
     background-color: #AC4ADC;
     color: #F1C2F2;
@@ -184,11 +184,12 @@ form {
     width: 100%;
 }
 .correct {
-    background-color: #18FA6A;
-}
+    background-color: #28a745;
+  }
+  
 .incorrect {
-    background-color: #D63009;
-}
+    background-color: #dc3545;
+  }
 
 
 /*Display*/
