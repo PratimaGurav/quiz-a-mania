@@ -75,19 +75,17 @@
     -   Balsamiq Wireframes - [Wireframes](assets/documents/Quiz-a-mania.pdf)
 
 
-
-    
 ## Features
 
  ### Existing Features: 
    
-    The scope of Quiz-a-mania has been created with following features :
-     1. Interactive Quiz Application.
-     2. Ability to submit scores to High-Scores.
-     3. Fully responsive design.
-     4. Easy navigation bar with completely responsive.
-     5. Help page with instructions on how to play.
-     6. Simplified feedback form.
+      The scope of Quiz-a-mania has been created with following features :
+      1. Interactive Quiz Application.
+      2. Ability to submit scores to High-Scores.
+      3. Fully responsive design.
+      4. Easy navigation bar with completely responsive.
+      5. Help page with instructions on how to play.
+      6. Simplified feedback form.
 
    - __Navigation Bar__
 
