@@ -59,7 +59,7 @@
 
 -   ### Design
     -   #### Colour Scheme
-        The main colours used are 
+        The main colours used are Electric Lavender, Cookie Brown, Purple Flower, Daisy Bush, Medium Green, Jasper.
           
     
     -   #### Typography 
@@ -71,6 +71,9 @@
          
 
 *   ### Wireframes
+
+    -   Balsamiq Wireframes - [Wireframes](assets/documents/Quiz-a-mania.pdf)
+
 
 
     
