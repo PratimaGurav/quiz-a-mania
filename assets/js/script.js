@@ -40,7 +40,7 @@ startGame = () => {
 };
 
 getNewQuestion = () => {
-if(availableQuestions.lenght === 0 || questionCounter >= maxQuestions) {
+if(availableQuestions.length === 0 || questionCounter >= maxQuestions) {
     //Saves to local storage
     localStorage.setItem('mostRecentScore', score);
     //Goes to the game-over page

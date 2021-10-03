@@ -165,7 +165,7 @@ form {
     max-width: 50%;
     margin: .2rem auto;
 }
-.choice-container:hover {
+.choice-container:hover:not(.correct, .incorrect) {
     background-color: #68139D;
     cursor: pointer;
     transform: translateY(-0.1rem);/* Reference w3school button animation*/
