@@ -171,9 +171,9 @@ form {
     transform: translateY(-0.1rem);/* Reference w3school button animation*/
     transition: transform 150ms;
 }
-/*.choice-container:active {
+.choice-container:active {
     background-color: #68139D; 
-}*/
+}
 .choice-prefix {
     background-color: #AC4ADC;
     color: #F1C2F2;
