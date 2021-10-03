@@ -133,6 +133,7 @@ h2 {
     list-style-type: circle;
     text-align: left;
     font-weight: 400;
+    margin: 1.5rem;
 }
 form {
     color: #F1C2F2;
