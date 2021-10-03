@@ -1,11 +1,15 @@
+//Constants
 const question = document.getElementById('question');
 const scoreCount = document.getElementById('score');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const displayProgress = document.getElementById('displayProgress');
 const progressFullBar = document.getElementById('complete-progress');
+//Points per correct answer
 const correctScore = 20;
+//Number of questions per game
 const maxQuestions = 5;
 
+//Let
 let questionCounter = 0;
 let score = 0;
 let currentQuestion = {};
@@ -21,14 +25,14 @@ fetch('./assets/js/questions.json')
     })
     .then(loadedQuestions => {
         questions = loadedQuestions;
-        startGame();
+        startGame()
     })
-    .catch((err) => {
-        console.error(err);
+    .catch((_error) => {
+        console.log("Unable to load questions");
 });
 
 // Start game function
-function startGame() {
+startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
@@ -37,11 +41,13 @@ function startGame() {
 
 getNewQuestion = () => {
 if(availableQuestions.lenght === 0 || questionCounter >= maxQuestions) {
+    //Saves to local storage
     localStorage.setItem('mostRecentScore', score);
+    //Goes to the game-over page
     return window.location.assign('./game-over.html');
 }
 //Updates Progress Bar
-questionCounter ++;
+questionCounter++;
 displayProgress.innerText = `Question ${questionCounter}/${maxQuestions}`;
 progressFullBar.style.width = `${(questionCounter/maxQuestions)* 100}%`;
 
@@ -50,18 +56,18 @@ const questionSelecter = Math.floor(Math.random() * availableQuestions.length);
 currentQuestion = availableQuestions[questionSelecter];
 question.innerText = currentQuestion.question;
 
-// Setting choices
+//Sets choices
 choices.forEach((choice) => {
     const number = choice.dataset['number'];
     choice.innerText = currentQuestion['choice' + number];
 });
 
-// Removing used questions
+//Removes used questions
 availableQuestions.splice(questionSelecter, 1);
 acceptAnswers = true;
 };
 
-// Attaching click event to all answers
+//Attaching click event to all answers
 choices.forEach((choice) => {
     choice.addEventListener('click', (e) => {
         if(!acceptAnswers) return; // if answer not accepted end the function.
@@ -76,6 +82,7 @@ choices.forEach((choice) => {
       
         selectedChoice.parentElement.classList.add(classToApply);
       
+        // Adds delay before next question and removes CSS styling
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
