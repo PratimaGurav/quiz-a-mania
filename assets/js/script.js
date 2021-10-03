@@ -4,6 +4,8 @@ const scoreCount = document.getElementById('score');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const displayProgress = document.getElementById('displayProgress');
 const progressFullBar = document.getElementById('complete-progress');
+const easy = document.getElementById('easy');
+const hard = document.getElementById('hard');
 //Points per correct answer
 const correctScore = 20;
 //Number of questions per game
@@ -30,6 +32,30 @@ fetch('./assets/js/questions.json')
     .catch((_error) => {
         console.log("Unable to load questions");
 });
+
+
+    /*.then(res => {
+        if(res.select === hard)
+        res.json()
+        else
+        fetch('./assets/js/easy-questions.json')
+        .then(res => res.json())
+        .then((res) => {
+            return res.json();
+        })
+        .then(loadedQuestions => {
+            questions = loadedQuestions;
+            startGame()
+        })
+        .catch(err => console.error(err));
+    })
+        .catch(err => console.error(err)); */
+
+
+
+
+
+  
 
 // Start game function
 startGame = () => {
