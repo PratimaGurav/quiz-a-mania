@@ -260,7 +260,7 @@ form {
   }
 
 /*Small mobile device fix. */
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
 #logo {
     font-size: 100%;
     margin-left: 40px;
