@@ -258,3 +258,22 @@ form {
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
+
+/*Small mobile device fix. */
+@media screen and (min-width: 500px) {
+#logo {
+    font-size: 100%;
+    margin-left: 40px;
+}
+#menu {
+    font-size: 100%;
+}
+.container {
+    height: 70vh;
+}
+#heading {
+    font-weight: 300;
+}
+
+
+}  
