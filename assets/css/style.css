@@ -16,7 +16,7 @@ body {
 /* headings and logo */
 
 h1 {
-    font-family: Architects Daughter, sans-serif;
+    font-family: Architects+Daughter, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #F1C2F2;
@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    font-family: Architects Daughter, sans-serif;
+    font-family: Architects+Daughter, sans-serif;
     letter-spacing: 6px;
     color: #F1C2F2;
     font-weight: 700;
@@ -73,7 +73,7 @@ h2 {
 .container {
     justify-content: center;
     align-items: center;
-    max-width: 80 rem;
+    max-width: 80rem;
     display: flex;
     width: 100vw;
     height: 100vh;
