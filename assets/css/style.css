@@ -31,6 +31,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+#heading {
+    margin-bottom: 2.5rem;
+}
+
 #logo {
     float: left;
     font-size: 300%;
