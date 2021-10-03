@@ -262,18 +262,32 @@ form {
 /*Small mobile device fix. */
 @media screen and (max-width: 500px) {
 #logo {
-    font-size: 100%;
+    font-size: 120%;
     margin-left: 40px;
 }
 #menu {
-    font-size: 100%;
+    font-size: 110%;
 }
 .container {
     height: 70vh;
 }
 #heading {
-    font-weight: 300;
+    font-size: 200%;
+    margin-left: 6rem;
 }
-
+#question {
+    font-size: 200%;
+}
+.choice-container {
+    width: 80%;
+}
+.help-div {
+    width: 60vw;
+}
+.input {
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+}
 
 }  
