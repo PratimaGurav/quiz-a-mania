@@ -9,7 +9,7 @@ const hard = document.getElementById('hard');
 //Points per correct answer
 const correctScore = 20;
 //Number of questions per game
-const maxQuestions = 5;
+const maxQuestions = 1;
 
 //Let
 let questionCounter = 0;
