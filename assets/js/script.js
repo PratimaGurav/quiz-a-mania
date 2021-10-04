@@ -21,7 +21,7 @@ let questions = [];
 //Referred James Q Quick video on YouTube 
 
 // Fetch questions from Json file
-fetch('./assets/js/questions.json')
+fetch('./assets/js/easy-questions.json')
     .then((res) => {
         return res.json();
     })

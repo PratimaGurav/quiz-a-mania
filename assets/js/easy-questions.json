@@ -5,6 +5,16 @@
       "choice2": "Amsterdam",
       "choice3": "Eindhoven",
       "choice4": "The Hague",
-      "answer": 2
+      "answer": 2,
+      "type": "easy"
+    },
+    {
+      "question": "What is the capital of India?",
+      "choice1": "New-Delhi",
+      "choice2": "Delhi",
+      "choice3": "Mumbai",
+      "choice4": "Bombay",
+      "answer": 1,
+      "type": "hard"
     }
 ]
