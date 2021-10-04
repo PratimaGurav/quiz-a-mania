@@ -16,5 +16,23 @@
       "choice4": "Bombay",
       "answer": 1,
       "type": "hard"
+    },
+    {
+      "question": "What is the scientific name of a butterfly?",
+      "choice1": "Apis",
+      "choice2": "Coleoptera",
+      "choice3": "Formicidae",
+      "choice4": "Rhopalocera",
+      "answer": 3,
+      "type":"easy"
+    },
+    {
+      "question": "How hot is the surface of the sun?",
+      "choice1": "1,233 K",
+      "choice2": "5,778 K",
+      "choice3": "12,130 K",
+      "choice4": "101,300 K",
+      "answer": 1,
+      "type":"hard"
     }
 ]
