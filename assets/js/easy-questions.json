@@ -1,5 +1,5 @@
-[
-    {
+{"quizquestions" :
+    [{
       "question": "What is the capital of Netherlands?",
       "choice1": "Rotterdam",
       "choice2": "Amsterdam",
@@ -24,7 +24,7 @@
       "choice3": "Formicidae",
       "choice4": "Rhopalocera",
       "answer": 3,
-      "type":"easy"
+      "levels":"easy"
     },
     {
       "question": "How hot is the surface of the sun?",
@@ -33,6 +33,6 @@
       "choice3": "12,130 K",
       "choice4": "101,300 K",
       "answer": 1,
-      "type":"hard"
+      "leves":"hard"
     }
-]
+]}

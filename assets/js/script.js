@@ -4,8 +4,7 @@ const scoreCount = document.getElementById('score');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 const displayProgress = document.getElementById('displayProgress');
 const progressFullBar = document.getElementById('complete-progress');
-const easy = document.getElementById('easy');
-const hard = document.getElementById('hard');
+
 //Points per correct answer
 const correctScore = 20;
 //Number of questions per game
@@ -17,11 +16,26 @@ let score = 0;
 let currentQuestion = {};
 let availableQuestions = [];
 let acceptAnswers = false;
-let questions = [];
+/*let questions = [];*/
+
+ function changeEevent() {
+     var type = document.getElementById("levels").value;
+     var fliteredQuestions = quizquestions.filter(
+         (question) =>
+         question.levels == level
+     );
+     document.getElementById("list").innerHTML = JSON.stringify(fliteredQuestions);
+ } 
+
+
+
+
+
+
 //Referred James Q Quick video on YouTube 
 
 // Fetch questions from Json file
-fetch('./assets/js/easy-questions.json')
+/*fetch('./assets/js/easy-questions.json')
     .then((res) => {
         return res.json();
     })
@@ -31,7 +45,7 @@ fetch('./assets/js/easy-questions.json')
     })
     .catch((_error) => {
         console.log("Unable to load questions");
-});
+});*/
 
 
     /*.then(res => {
