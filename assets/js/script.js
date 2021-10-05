@@ -8,7 +8,7 @@ const progressFullBar = document.getElementById('complete-progress');
 //Points per correct answer
 const correctScore = 20;
 //Number of questions per game
-const maxQuestions = 7;
+const maxQuestions = 5;
 
 //Let
 let questionCounter = 0;
