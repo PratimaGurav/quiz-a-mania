@@ -6,7 +6,7 @@
       "choice3": "Eindhoven",
       "choice4": "The Hague",
       "answer": 2,
-      "type": "easy"
+      "levels": "easy"
     },
     {
       "question": "What is the capital of India?",
@@ -15,7 +15,7 @@
       "choice3": "Mumbai",
       "choice4": "Bombay",
       "answer": 1,
-      "type": "hard"
+      "levels": "hard"
     },
     {
       "question": "What is the scientific name of a butterfly?",
@@ -33,6 +33,6 @@
       "choice3": "12,130 K",
       "choice4": "101,300 K",
       "answer": 1,
-      "leves":"hard"
+      "levels":"hard"
     }
 ]}
