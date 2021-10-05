@@ -214,6 +214,18 @@ form {
 .display-main-text {
     text-align: center;
 }
+
+#play-question {
+    font-size: 4rem;
+    margin: 0 auto;
+    color: #C2A91D;
+}
+.fa-play-circle:hover {
+    cursor: pointer;
+    color: #AC4ADC;
+}
+
+
 /* Progress*/
 #progress {
     margin-top: 1.5rem;
