@@ -18,6 +18,14 @@ let availableQuestions = [];
 let acceptAnswers = false;
 let questions = [];
 
+// Speech Synthesis to read the questions
+const speak = function textToSpeech(text) {
+    var msg = new SpeechSynthesisUtterance(text);
+    msg.voice = window.speechSynthesis.default;
+    msg.rate = 0.9;
+    window.speechSynthesis.speak(msg);
+};
+
 //Referred James Q Quick video on YouTube 
 
 // Fetch questions from Json file
@@ -81,6 +89,9 @@ choices.forEach((choice) => {
 
         if (classToApply === 'correct') {
             incrementScore(correctScore);
+            speak(`correct!`);
+        } else {
+            speak(`incorrect!`);
         }
       
         selectedChoice.parentElement.classList.add(classToApply);
@@ -93,7 +104,12 @@ choices.forEach((choice) => {
     });
 });
 
-        // Increment Score
+    //read out question function. called via onclick on quiz.html
+        function readQuestion() {
+            speak(`${currentQuestion.question}`);
+        }
+
+    // Increment Score
         incrementScore = num => {
         score += num;
         scoreCount.innerText = score;
