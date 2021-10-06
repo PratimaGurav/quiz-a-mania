@@ -76,17 +76,19 @@
 
 ## Features
 
- ### Existing Features: 
-  
-    The scope of Quiz-a-mania has been created with following features :
-      
+ ### Existing Features
+
+   - __The Scope__ 
+      The scope of Quiz-a-mania has been created with the following features :
       - Interactive Quiz Application.
+      - Audio / play button to read out the current questions.
       - Ability to submit scores to High-Scores.
       - Fully responsive design.
-      - Easy navigation bar with completely responsive.
+      - Easy navigation bar which is completely responsive.
       - Help page with instructions on how to play.
       - Simplified feedback form.
-
+  
+    
    - __Navigation Bar__
 
       Navigation menu with links to different pages within the application. It is same on all pages for simplicity and easy navigation.
@@ -101,8 +103,10 @@
    - __Quiz__
       
       - The counter mentioning which question you are at currently.
+      - Audio / play button to be clicked to read out the current questions.
       - Your current score.
       - The question which has to be answered.
+      - Audio for correct or incorrect answer.
       - 4 options to select from, out of which one is correct.
      
    - __Game Over__ 
@@ -145,6 +149,13 @@
     - Balsamiq was used to create the wireframes during the design process. 
     
 ## Testing
+
+    The [W3C Markup Validator](https://validator.w3.org/nu/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+   - Following errors were found and fixed while validation:-  
+    - (HTML) No space between aria label attributes.   
+      - [Error](assets/documents/w3-validator-index-error.jpg) 
+      - [Results](assets/documents/w3-validator-index-error-fix.jpg)
 
  
 
