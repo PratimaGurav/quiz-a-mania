@@ -58,11 +58,11 @@
 
 -   ### Design
     -   #### Colour Scheme
-        The main colours used are Electric Lavender, Cookie Brown, Purple Flower, Daisy Bush, Medium Green, Jasper.
+        The main colours used are Electric Lavender, Cookie Brown, Purple Flower, Daisy Bush, Medium Green, Jasper. These colours complement eachother and maintain good contrast levels.
           
     
     -   #### Typography 
-        Gluten font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Architects Daughter is used for headings with Sans Serif as the fallback.    
+        Gluten font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Architects+Daughter is used for headings with Sans Serif as the fallback.    
         
 
     -   #### Imagery
