@@ -93,6 +93,11 @@ h2 {
     align-items: center;
   }
 
+div#icon {
+    font-size: 3rem;
+    color: #C2A91D;
+}
+
 .button {
     margin-bottom: .5rem;
     width: 15rem;
