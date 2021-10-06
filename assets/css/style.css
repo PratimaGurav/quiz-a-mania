@@ -94,13 +94,13 @@ h2 {
   }
 
 div#icon {
-    font-size: 3rem;
+    font-size: 5rem;
     color: #C2A91D;
 }
 
 .button {
     margin-bottom: .5rem;
-    width: 15rem;
+    width: 16rem;
     height: 3rem;
     border: 3px outset #C2A91D;
     border-radius: 5px;
