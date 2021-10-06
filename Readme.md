@@ -150,7 +150,7 @@
     
 ## Testing
 
-    The [W3C Markup Validator](https://validator.w3.org/nu/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) were used to validate every page of the project to ensure there were no syntax errors in the project.
+  The [W3C Markup Validator](https://validator.w3.org/nu/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) were used to validate every page of the project to ensure there were no syntax errors in the project.
 
    - Following errors were found and fixed while validation:-  
     - (HTML) No space between aria label attributes.   
