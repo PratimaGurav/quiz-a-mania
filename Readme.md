@@ -175,7 +175,10 @@
       (Fixes) Questions container was given different id and formatting.         
        - [Error](assets/documents/option-width-formatting-error.jpg) 
        - [Results](assets/documents/option-width-formatting-error-fix.jpg)  
-
+       Help page was not formatted correctly.
+       (Fixes) Width of the ol/list was adjusted accordingly. 
+       - [Error](assets/documents/help-page-formatting-error.jpg) 
+       - [Results](assets/documents/help-page-formatting-error-fix.jpg)  
  
 
   - ### Lighthouse Results
@@ -213,7 +216,8 @@
 ## Credits
 
   - ### Code
-    - 
+    - [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) was used as inspiration and referred to build this quiz. 
+    - [SpeechSynthesis](https://codingislove.com/speech-with-javascript/) was used to implement speech synthesis to read out questions and to prompt correct or incorrect answers.
     - [W3 Schools](https://www.w3schools.com/) was used throughout the project majorly for styling and alignment purpose.
 
   - ### Content
@@ -230,7 +234,7 @@
 ## Acknowledgements
 
   -   My Mentor for continuous helpful feedback and advises.
-  -   Slack community and my fellow slackers for being available at any given time of the day.
+  -   Slack community, Tutors and my fellow slackers for being available at any given time of the day.
 
 
 ## [BACK TO TOP]
