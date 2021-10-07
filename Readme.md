@@ -194,6 +194,18 @@
 
  - ### GitHub Pages 
 
+  The project was deployed to GitHub Pages using the following steps...
+
+   1. Log in to GitHub and locate the [GitHub Repository](https://github.com/PratimaGurav/quiz-a-mania)
+   2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+   3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+   4. Under "Source", click the dropdown called "None" and select "Main Branch".
+   5. Click "Save".
+   6. The page will automatically refresh and provide you with a link to the Live GitHub Page for the repository.
+
+  The Page can sometimes take longer to load and go live which is an expected behaviour. 
+
+
 
  - ### Making a Local Clone
 
