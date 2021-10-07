@@ -218,6 +218,7 @@ form {
 }
 .display-main-text {
     text-align: center;
+    margin: 1rem;
 }
 
 #play-question {
