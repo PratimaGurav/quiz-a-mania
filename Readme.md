@@ -208,9 +208,10 @@
 
   The Page can sometimes take longer to load and go live which is an expected behaviour. 
 
-
-
  - ### Making a Local Clone
+ 
+    1. Log in to GitHub and navigate to the [GitHub Repository](https://github.com/PratimaGurav/quiz-a-mania)
+    2. To clone the repository using HTTPS, click Code and copy the address. 
 
 
 ## Credits
