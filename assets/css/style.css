@@ -278,8 +278,8 @@ form {
     margin-bottom: 0.5rem;
   }
 
-/*Smaller mobile device fix. */
-@media screen and (min-width: 500px) {
+/* For small screen sizes 425px and down */
+@media screen and (max-width: 425px) {
 #logo {
     font-size: 120%;
     margin-left: 40px;
@@ -309,8 +309,8 @@ form {
     margin-top: 20px;
 }
 }  
-/* For screen sizes wider than 768px*/
-@media screen and (min-width: 768px) {   
+/* For small screen sizes 800px and down */
+@media screen and (max-width: 800px) {   
 #logo {
     font-size: 350%;
 }
@@ -318,9 +318,7 @@ form {
     width: 70vw;
 }
 }
-/*CSS for devices with a screen size wider than 900px*/
-@media screen and (min-width: 900px) {
-    #logo {
-        font-size: 450%;
-    }
-}
+/*For medium screen sizes from 950px wide and down
+@media screen and (max-width: 950px) {  
+    
+}*/
