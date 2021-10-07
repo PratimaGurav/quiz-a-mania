@@ -279,7 +279,7 @@ form {
   }
 
 /*Smaller mobile device fix. */
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 425px) {
 #logo {
     font-size: 120%;
     margin-left: 40px;
@@ -309,8 +309,8 @@ form {
     margin-top: 20px;
 }
 }  
-/* For small screen sizes 800px and down */
-@media screen and (min-width: 768px) {   
+/* For screen sizes wider than 768px*/
+@media screen and (max-width: 768px) {   
 #logo {
     font-size: 350%;
 }
