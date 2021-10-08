@@ -227,9 +227,14 @@ form {
     margin: 0 auto;
     color: #C2A91D;
 }
+.fa-play-circle:hover {
+    cursor: pointer;
+    color: #AC4ADC;
+
+}
 
 
-/* Progress*/
+/* Progress bar styling*/
 #progress {
     margin-top: 1.5rem;
     border: 5px solid #C2A91D;
