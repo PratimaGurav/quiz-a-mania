@@ -156,14 +156,17 @@
     - (Index.html) No space between aria label attributes.   
       - [Error](assets/documents/w3-validator-index-error.jpg) 
       - [Results](assets/documents/w3-validator-index-error-fix.jpg)
+    
     - (Highscore.html) No space between aria label attributes.   
       - [Error](assets/documents/w3-validator-highscore-error.jpg) 
       - [Results](assets/documents/w3-validator-highscore-error-fix.jpg)  
+    
     - (Help.html) Element br not allowed as child element ol. No space between aria label attributes. 
       (Fixes) Element br was removed and added margin between each ol  
       - [Error](assets/documents/w3-validator-help-error1.jpg) 
       - [Error](assets/documents/w3-validator-help-error2.jpg) 
       - [Results](assets/documents/w3-validator-help-error-fix.jpg)
+    
     - (Game-over.html) Empty heading. No space between aria label attributes.   
       - [Error](assets/documents/w3-validator-game-over-error.jpg) 
       - [Results](assets/documents/w3-validator-game-over-error-fix.jpg)  
