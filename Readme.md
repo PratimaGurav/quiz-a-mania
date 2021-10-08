@@ -181,16 +181,30 @@
 
   - ### Lighthouse Results
     - __Home Page__
-        - [Desktop]
-        - [Mobile]
+        - [Desktop](assets/documents/home-desktop.jpg)
+        - [Mobile](assets/documents/home-mobile.jpg)
+   
+    - __Question Page__
+        - [Desktop](assets/documents/question-desktop.jpg)
+        - [Mobile](assets/documents/question-desktop.jpg)   
+   
+    - __High Scores Page__
+        - [Desktop](assets/documents/highscore-desktop.jpg)
+        - [Mobile](assets/documents/highscore-mobile.jpg)   
+    
+    - __Game-Over Page__
+        - [Desktop](assets/documents/game-over-desktop.jpg)
+        - [Mobile](assets/documents/game-over-mobile.jpg)
 
-    - __Home Page__
-        - [Desktop]
-        - [Mobile]    
+    - __Help Page__
+        - [Desktop](assets/documents/help-desktop.jpg)
+        - [Mobile](assets/documents/help-mobile.jpg)          
 
   - ### Further Testing
-
-   - 
+    -   The Website was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox browsers.
+    -   The website was viewed on a variety of devices such as Desktop, Laptop, iPad, iPhone 6, 7 & 8. 
+    -   A large amount of testing was done to ensure that all pages were linking correctly.
+    -   Friends and family members were asked to review the site to point out any bugs and/or user experience issues. 
 
   - ### Known Bugs
 
