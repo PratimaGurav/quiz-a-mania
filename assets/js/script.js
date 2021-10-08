@@ -110,7 +110,7 @@ choices.forEach((choice) => {
     });
 });
 
-//read out question function. called via onclick on question.html
+//Read out question function. called via onclick on question.html. Below code was modified with help of my Mentor.
 function readQuestion() {
    textToSpeech(`${currentQuestion.question}`);
    textToSpeech('A');
