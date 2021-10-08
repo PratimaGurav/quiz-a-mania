@@ -110,6 +110,12 @@ function readQuestion() {
    textToSpeech(`${currentQuestion.question}`);
    textToSpeech('A');
    textToSpeech(`${currentQuestion.choice1}`);
+   textToSpeech('B');
+   textToSpeech(`${currentQuestion.choice2}`);
+   textToSpeech('C');
+   textToSpeech(`${currentQuestion.choice3}`);
+   textToSpeech('D');
+   textToSpeech(`${currentQuestion.choice4}`);
 }
 
 // Increment Score
