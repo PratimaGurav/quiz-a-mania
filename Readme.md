@@ -222,7 +222,10 @@
     - [W3 Schools](https://www.w3schools.com/) was used throughout the project majorly for styling and alignment purpose.
 
   - ### Content
-     
+    The following websites were referred to gather quiz question for the project.  
+    [BBC Food Good](https://www.bbcgoodfood.com/howto/guide/food-quiz)
+    [GK Today](https://www.gktoday.in/)
+    [Quiz Wine](https://www.quizwine.com/)
      
 
   - ### Media
