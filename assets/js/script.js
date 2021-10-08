@@ -36,7 +36,7 @@ fetch('./assets/js/questions.json')
     })
     .then(loadedQuestions => {
         questions = loadedQuestions;
-        startGame()
+        startGame();
     })
     .catch((_error) => {
         console.log("Unable to load questions");

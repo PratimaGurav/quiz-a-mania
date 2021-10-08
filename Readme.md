@@ -159,7 +159,9 @@
     
     - (Highscore.html) No space between aria label attributes.   
       - [Error](assets/documents/w3-validator-highscore-error.jpg) 
-      - [Results](assets/documents/w3-validator-highscore-error-fix.jpg)  
+      - [Results](assets/documents/w3-validator-highscore-error-fix.jpg)      
+    
+  
     
     - (Help.html) Element br not allowed as child element ol. No space between aria label attributes. 
       (Fixes) Element br was removed and added margin between each ol  
