@@ -16,9 +16,9 @@ let score = 0;
 let currentQuestion = {};
 let availableQuestions = [];
 let acceptAnswers = false;
-let questions = [];
 
-// Speech Synthesis to read the questions
+
+// Speech Synthesis to read the questions, choices and prompt correct or incorrect.
 function textToSpeech(text) {
     var msg = new SpeechSynthesisUtterance(text);
     msg.voice = window.speechSynthesis.default;
@@ -26,10 +26,10 @@ function textToSpeech(text) {
     window.speechSynthesis.speak(msg);
 };
 
-//Referred James Q Quick video on YouTube 
+//Referred James Q Quick video on YouTube (https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
 
 // Fetch questions from Json file
-
+let questions = [];
 fetch('./assets/js/questions.json')
     .then(function(resp){
         return resp.json();
@@ -42,10 +42,10 @@ fetch('./assets/js/questions.json')
         console.log("Unable to load questions");
 });
 function getURL() {
-    alert("The URL of this page is:./assets/js/questions.json " + window.location.href);
-}
+    alert("The URL of this page is: " + window.location.href);
+} console.log(window.location.href)
 
-// Start game function
+// Start game function.
 function startGame(){
     questionCounter = 0;
     score = 0;
@@ -53,19 +53,20 @@ function startGame(){
     getNewQuestion();
 };
 
+// Generate new random question from the available set of questions.
 function getNewQuestion(){
 if(availableQuestions.length === 0 || questionCounter >= maxQuestions) {
-    //Saves to local storage
+    //Saves to local storage.
     localStorage.setItem('mostRecentScore', score);
-    //Goes to the game-over page
+    //Goes to the game-over page.
     return window.location.assign('./game-over.html');
 }
-//Updates Progress Bar
+//Updates Progress Bar.
 questionCounter++;
 displayProgress.innerText = `Question ${questionCounter}/${maxQuestions}`;
 progressFullBar.style.width = `${(questionCounter/maxQuestions)* 100}%`;
 
-//Updates question and choices 
+//Updates random question and choices from the available set of questions.
 const questionSelecter = Math.floor(Math.random() * availableQuestions.length);
 currentQuestion = availableQuestions[questionSelecter];
 question.innerText = currentQuestion.question;
@@ -107,7 +108,7 @@ choices.forEach((choice) => {
     });
 });
 
-//read out question function. called via onclick on quiz.html
+//read out question function. called via onclick on question.html
 function readQuestion() {
    textToSpeech(`${currentQuestion.question}`);
    textToSpeech('A');
@@ -124,5 +125,4 @@ function readQuestion() {
 function incrementScore(num){
     score += num;
     scoreCount.innerText = score;
-};
-
+}
