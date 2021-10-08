@@ -40,7 +40,10 @@ fetch('./assets/js/questions.json')
     })
     .catch((_error) => {
         console.log("Unable to load questions");
-});  
+});
+function getURL() {
+    alert("The URL of this page is:./assets/js/questions.json " + window.location.href);
+}
 console.log(window.location.href);
 
 // Start game function
@@ -51,7 +54,7 @@ startGame = () => {
     getNewQuestion();
 };
 
-getNewQuestion = () => {
+function getNewQuestion(){
 if(availableQuestions.length === 0 || questionCounter >= maxQuestions) {
     //Saves to local storage
     localStorage.setItem('mostRecentScore', score);
@@ -70,7 +73,7 @@ question.innerText = currentQuestion.question;
 
 //Sets choices
 choices.forEach((choice) => {
-    const number = choice.dataset['number'];
+    const number = choice.dataset.number;
     choice.innerText = currentQuestion['choice' + number];
 });
 
@@ -120,7 +123,7 @@ function readQuestion() {
 
 // Increment Score
 function incrementScore(num){
-        score += num;
-        scoreCount.innerText = score;
-        };
+    score += num;
+    scoreCount.innerText = score;
+};
 
