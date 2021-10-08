@@ -43,9 +43,7 @@ fetch('./assets/js/questions.json')
     .catch((_error) => {
         console.log("Unable to load questions");
 });
-function getURL() {
-    alert("The URL of this page is: " + window.location.href);
-} console.log(window.location.href);
+console.log(window.location.href);
 
 // Start game function.
 function startGame(){
