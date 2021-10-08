@@ -4,7 +4,7 @@
 
 ### HTML/CSS/Javascript Essentials: Interactive front-end website
 
-![Responsive]()
+![Responsive](assets/documents/responsivedesign.jpg)
 
 [Click here to view the live project.](https://pratimagurav.github.io/quiz-a-mania/)
 
@@ -29,7 +29,7 @@
 ## User Experience (UX)
 
 -   ### Site Goals
-     Quiz-a-mania is a interactive website which enables users to play quiz by answering a fixed set of questions. The quiz is set to test General Knowledge of users with multiple choice questions. Questions are readout if you click the audio/play button. You score for every correct answer and get prompted if your answer is correct or incorrect. You have an option to submit your score and rank yourself on the high scores by providing your username.
+     Quiz-a-mania is a interactive website which enables users to play quiz by answering a fixed set of questions. The quiz is set to test General Knowledge of users with multiple choice questions. Questions with choices are readout if you click the sound button. You score for every correct answer and get prompted if your answer is correct or incorrect. You have an option to submit your score and rank yourself on the high scores by providing your username.
 
 -   ### Target Audience    
       The site is targetted to everyone who loves to play online quiz with an aim to score high. 
@@ -175,6 +175,8 @@
         (Fixes) Width of the ol/list was adjusted accordingly. 
         - [Error](assets/documents/help-page-formatting-error.jpg) 
         - [Results](assets/documents/help-page-formatting-error-fix.jpg)  
+
+  [JS Hint](https://jshint.com/) was used to validate every JS file of the project and does not show any errors.         
  
 
   - ### Lighthouse Results
