@@ -19,7 +19,7 @@ let acceptAnswers = false;
 let questions = [];
 
 // Speech Synthesis to read the questions
-const speak = function textToSpeech(text) {
+function textToSpeech(text) {
     var msg = new SpeechSynthesisUtterance(text);
     msg.voice = window.speechSynthesis.default;
     msg.rate = 0.9;
@@ -41,6 +41,7 @@ fetch('./assets/js/questions.json')
     .catch((_error) => {
         console.log("Unable to load questions");
 });  
+console.log(window.location.href);
 
 // Start game function
 startGame = () => {
@@ -89,9 +90,9 @@ choices.forEach((choice) => {
 
         if (classToApply === 'correct') {
             incrementScore(correctScore);
-            speak(`correct!`);
+            textToSpeech(`correct!`);
         } else {
-            speak(`incorrect!`);
+            textToSpeech(`incorrect!`);
         }
       
         selectedChoice.parentElement.classList.add(classToApply);
@@ -104,13 +105,15 @@ choices.forEach((choice) => {
     });
 });
 
-    //read out question function. called via onclick on quiz.html
-        function readQuestion() {
-            speak(`${currentQuestion.question}`);
-        }
+//read out question function. called via onclick on quiz.html
+function readQuestion() {
+   textToSpeech(`${currentQuestion.question}`);
+   textToSpeech('A');
+   textToSpeech(`${currentQuestion.choice1}`);
+}
 
-    // Increment Score
-        incrementScore = num => {
+// Increment Score
+function incrementScore(num){
         score += num;
         scoreCount.innerText = score;
         };
