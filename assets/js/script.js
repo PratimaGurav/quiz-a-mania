@@ -31,10 +31,10 @@ function textToSpeech(text) {
 // Fetch questions from Json file
 
 fetch('./assets/js/questions.json')
-    .then((res) => {
-        return res.json();
+    .then(function(resp){
+        return resp.json();
     })
-    .then(loadedQuestions => {
+    .then(function(loadedQuestions){
         questions = loadedQuestions;
         startGame();
     })
@@ -44,10 +44,9 @@ fetch('./assets/js/questions.json')
 function getURL() {
     alert("The URL of this page is:./assets/js/questions.json " + window.location.href);
 }
-console.log(window.location.href);
 
 // Start game function
-startGame = () => {
+function startGame(){
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
