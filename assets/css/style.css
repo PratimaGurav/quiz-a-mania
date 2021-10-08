@@ -309,8 +309,8 @@ form {
     margin-top: 20px;
 }
 }  
-/* For screen sizes wider than 800px*/
-@media screen and (max-width: 800px) {   
+/* For screen sizes with min-height of 600px*/
+@media screen and (min-height: 600px) { 
 #logo {
     font-size: 350%;
 }
