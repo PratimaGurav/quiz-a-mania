@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 //Constants
 const question = document.getElementById('question');
 const scoreCount = document.getElementById('score');
@@ -24,7 +26,7 @@ function textToSpeech(text) {
     msg.voice = window.speechSynthesis.default;
     msg.rate = 0.9;
     window.speechSynthesis.speak(msg);
-};
+}
 
 //Referred James Q Quick video on YouTube (https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx)
 
@@ -43,7 +45,7 @@ fetch('./assets/js/questions.json')
 });
 function getURL() {
     alert("The URL of this page is: " + window.location.href);
-} console.log(window.location.href)
+} console.log(window.location.href);
 
 // Start game function.
 function startGame(){
@@ -51,7 +53,7 @@ function startGame(){
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
-};
+}
 
 // Generate new random question from the available set of questions.
 function getNewQuestion(){
@@ -80,7 +82,7 @@ choices.forEach((choice) => {
 //Removes used questions
 availableQuestions.splice(questionSelecter, 1);
 acceptAnswers = true;
-};
+}
 
 //Attaching click event to all answers
 choices.forEach((choice) => {
@@ -88,7 +90,7 @@ choices.forEach((choice) => {
         if(!acceptAnswers) return; // if answer not accepted end the function.
         acceptAnswers = false; // set accept answers to false once an answer has been selected.
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = selectedChoice.dataset.number;
         const classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'; 
 
         if (classToApply === 'correct') {
