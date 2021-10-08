@@ -180,8 +180,13 @@
  
 
   - ### Lighthouse Results
+    - __Home Page__
+        - [Desktop]
+        - [Mobile]
 
-    -
+    - __Home Page__
+        - [Desktop]
+        - [Mobile]    
 
   - ### Further Testing
 
