@@ -19,14 +19,14 @@ h1 {
     font-family: Architects+Daughter, sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
-    color: #F1C2F2;
+    color: #FECCFF;
     font-weight: 700;
 }
 
 h2 {
     font-family: Architects+Daughter, sans-serif;
     letter-spacing: 6px;
-    color: #F1C2F2;
+    color: #FECCFF;
     font-weight: 700;
     font-size: 2.5rem;
 }
@@ -55,7 +55,7 @@ h2 {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-    color: #F1C2F2;
+    color: #FECCFF;
 }
 
 #menu a {
@@ -110,7 +110,7 @@ div#icon {
     font-weight:400;
     font-size: 2rem;
     background-color: #AC4ADC;
-    color: #F1C2F2;
+    color: #FECCFF;
     font-family: inherit
 }
 .button:hover {
@@ -137,7 +137,7 @@ div#icon {
 }
 
 .help-list li {
-    color: #F1C2F2;
+    color: #FECCFF;
     font-size: 1.5rem;
     list-style-type: circle;
     text-align: left;
@@ -145,7 +145,7 @@ div#icon {
     margin: 1.5rem;
 }
 form {
-    color: #F1C2F2;
+    color: #FECCFF;
     font-size: 1.4rem;
     text-align: left;
     padding-top: 50px;
@@ -169,7 +169,7 @@ form {
     display: flex;
     margin-bottom: .5rem;
     width: 100%;
-    color: #F1C2F2;
+    color: #FECCFF;
     font-size: 1.5rem;
     border: 4px outset #C2A91D;
     border-radius: 5px;
@@ -187,7 +187,7 @@ form {
     background-color: #68139D; 
 }
 .choice-prefix {
-    color: #F1C2F2;
+    color: #FECCFF;
     padding: .5rem;
 }
 .choice-text {
@@ -209,7 +209,7 @@ form {
     justify-content: space-around;
     font-size: 1.5rem;
     font-family: inherit;
-    color: #F1C2F2;
+    color: #FECCFF;
     display: flex;
     margin: 80px 0px 40px;
 }
@@ -247,7 +247,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #F1C2F2;
+    color: #FECCFF;
     justify-content: space-around;
 }
 
@@ -266,7 +266,7 @@ form {
     list-style: none;
     margin-bottom: 5rem;
     padding-left: 0;
-    color: #F1C2F2;
+    color: #FECCFF;
   }
   
 .high-score {
