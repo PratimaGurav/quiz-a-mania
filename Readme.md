@@ -127,6 +127,13 @@
      - Instructions on how to play the quiz.
      - Feedback form to provide the feedback.
 
+- ### Future Enhancements 
+
+    - Add option to mute the audio.
+    - Add difficulty levels.
+    - Add option to select subject for the quiz.
+    - Add timer and bonus points for each questions to be answered.
+
 
 ## Technologies Used
 
@@ -144,12 +151,15 @@
     - Google fonts were used to import the font into the style.css file which is used on all pages throughout the project.
   - [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-  - [Git](https://git-scm.com/)
+  - [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
   - [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.   
   - [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes during the design process. 
+  - [Color Adobe:](https://color.adobe.com/)
+    - Color Adobe was used to select different colours used on the website based on the background image.
+  
     
 ## Testing
 
@@ -170,17 +180,18 @@
       - (Game-over.html) Empty heading. No space between aria label attributes.   
         - [Error](assets/documents/w3-validator-game-over-error.jpg) 
         - [Results](assets/documents/w3-validator-game-over-error-fix.jpg)  
-      - (Formatting error) Questions and options containers formatting was done together.
-        (Fixes) Questions container was given different id and formatting.         
+     
+  [JS Hint](https://jshint.com/) was used to validate every JS file of the project to ensure there are no erros.         
+  
+  - ### UI Testing
+   - Alignment error: Questions and options containers width was changing as per the question length.
+      - Fixes: Questions container was given different id and adjusted the width.         
         - [Error](assets/documents/option-width-formatting-error.jpg) 
         - [Results](assets/documents/option-width-formatting-error-fix.jpg)  
-        Help page was not formatted correctly.
-        (Fixes) Width of the ol/list was adjusted accordingly. 
+   - Help page was distorted. 
+      - Fixes: Width of the ol/list was adjusted accordingly. 
         - [Error](assets/documents/help-page-formatting-error.jpg) 
         - [Results](assets/documents/help-page-formatting-error-fix.jpg)  
-
-  [JS Hint](https://jshint.com/) was used to validate every JS file of the project to ensure there are no erros.         
- 
 
   - ### Lighthouse Results
     - __Home Page__
@@ -246,6 +257,7 @@
     - [SpeechSynthesis](https://codingislove.com/speech-with-javascript/) was used to implement speech synthesis to read out questions and to prompt correct or incorrect    
       answers.
     - [W3 Schools](https://www.w3schools.com/) was used throughout the project majorly for styling and alignment purpose.
+    - [Stack Overflow:](https://stackoverflow.com/) was refered for resloution of technical querries.
 
   - ### Content
     The following websites were referred to gather quiz question for the project.  
