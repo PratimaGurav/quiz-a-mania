@@ -1,3 +1,4 @@
+/*import google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gluten:wght@300&display=swap');
 
 *{
@@ -13,10 +14,10 @@ body {
     font-family: Gluten, sans-serif;
     font-weight: 250;
 }
-/* headings and logo */
+/*headings and logo*/
 
 h1 {
-    font-family: Architects+Daughter, sans-serif;
+    font-family: 'Architects+Daughter', sans-serif;
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #FECCFF;
@@ -24,7 +25,7 @@ h1 {
 }
 
 h2 {
-    font-family: Architects+Daughter, sans-serif;
+    font-family: 'Architects+Daughter', sans-serif;
     letter-spacing: 6px;
     color: #FECCFF;
     font-weight: 700;
@@ -41,7 +42,7 @@ h2 {
     margin-left: 30px;
     text-decoration: none;
 }
-
+/*main navigation*/
 #menu {
     font-size: 150%;
     letter-spacing: 4px;
@@ -63,17 +64,21 @@ h2 {
     color: inherit;
 }
 
+/*hover effect for nav bar*/
 #menu a:hover {
     border-bottom: 3px solid #C2A91D;
 }
 
+/*highlight active nav*/
 .active {
     border-bottom: 3px solid #C2A91D;
 }
 
+/*background-image*/
 #image {
     justify-content: center;
 }
+/*containers on all pages*/
 .container {
     justify-content: center;
     align-items: center;
@@ -93,11 +98,13 @@ h2 {
     align-items: center;
   }
 
+  /*lighbulb icon on home page*/
 div#icon {
     font-size: 5rem;
     color: #C2A91D;
 }
 
+/*buttons on all pages*/
 .button {
     margin-bottom: .5rem;
     width: 15.5rem;
@@ -113,14 +120,18 @@ div#icon {
     color: #FECCFF;
     font-family: inherit
 }
+
+/*hover effect for buttons*/
 .button:hover {
     background-color: #68139D;
 }
 
+/* highscore page */
 .highscores {
     text-align: center;
 }
 
+/* help page*/
 .help-div {
     justify-content: center;
     align-items: center;
@@ -144,6 +155,7 @@ div#icon {
     font-weight: 400;
     margin: 1.5rem;
 }
+/*form on help page*/
 form {
     color: #FECCFF;
     font-size: 1.4rem;
@@ -165,6 +177,7 @@ form {
     margin-bottom: 1rem;
     max-width: 80%;
 }
+/*options container*/
 .choice-container {
     display: flex;
     margin-bottom: .5rem;
@@ -177,6 +190,7 @@ form {
     margin: .2rem auto;
     padding: .5rem;
 }
+/*hover effect for options container*/
 .choice-container:hover:not(.correct, .incorrect) {
     background-color: #68139D;
     cursor: pointer;
@@ -186,15 +200,18 @@ form {
 .choice-container:active {
     background-color: #68139D; 
 }
+/*options number*/
 .choice-prefix {
     color: #FECCFF;
     padding: .5rem;
 }
+/*options text inside container*/
 .choice-text {
     padding: .5rem;
     width: 100%;
     height: 100%;
 }
+/*answer correct/incorrect colour change set by JS.*/
 .correct {
     background-color: #28a745;
   }
@@ -204,7 +221,7 @@ form {
   }
 
 
-/*Display*/
+/*progress bar*/
 #display {
     justify-content: space-around;
     font-size: 1.5rem;
@@ -221,7 +238,6 @@ form {
     text-align: center;
     margin: 1rem;
 }
-
 #play-question {
     font-size: 4rem;
     margin: 5px 35px;
@@ -232,9 +248,7 @@ form {
     color: #AC4ADC;
 
 }
-
-
-/* Progress bar styling*/
+/*progress bar styling*/
 #progress {
     margin-top: 1.5rem;
     border: 5px solid #C2A91D;
@@ -245,7 +259,7 @@ form {
     width: auto;
     background-color: #AC4ADC;
 }
-/* Score card*/
+/*Game-over page*/
 #score-card {
     width: 100%;
     font-family: inherit;
@@ -265,7 +279,7 @@ form {
     padding: 1.5rem;
 }
 
-/* High Scores */
+/*Highscores page*/
 
 #highScoresList {
     list-style: none;
