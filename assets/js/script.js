@@ -43,8 +43,6 @@ fetch('./assets/js/questions.json')
     .catch((_error) => {
         console.log("Unable to load questions");
 });
-console.log(window.location.href);
-
 // Start game function.
 function startGame(){
     questionCounter = 0;
