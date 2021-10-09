@@ -11,19 +11,19 @@
 [Click here to view the repository.](https://github.com/PratimaGurav/quiz-a-mania)
 
 ## Table of Contents:
-- [User Experience (UX)]()  
+- [User Experience (UX)](https://github.com/PratimaGurav/quiz-a-mania#user-experience-ux)  
 
-- [Features]()
+- [Features](https://github.com/PratimaGurav/quiz-a-mania#features)
 
-- [Technologies Used]()
+- [Technologies Used](https://github.com/PratimaGurav/quiz-a-mania#technologies-used)
   
-- [Testing]()
+- [Testing](https://github.com/PratimaGurav/quiz-a-mania#testing)
 
-- [Deployment]()
+- [Deployment](https://github.com/PratimaGurav/quiz-a-mania#deployment)
 
-- [Credits]()
+- [Credits](https://github.com/PratimaGurav/quiz-a-mania#credits)
 
-- [Acknowledgements]()
+- [Acknowledgements](https://github.com/PratimaGurav/quiz-a-mania#acknowledgements)
     
 
 ## User Experience (UX)
@@ -281,4 +281,4 @@
   -   Slack community, Tutors and my fellow slackers for being available at any given time of the day.
 
 
-## [BACK TO TOP]
+## [BACK TO TOP](https://github.com/PratimaGurav/quiz-a-mania#quiz-a-mania)
