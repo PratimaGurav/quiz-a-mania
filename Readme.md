@@ -179,8 +179,8 @@
        - [Results](assets/documents/w3-validator-help-error-fix.jpg)
           
   - Game-over.html: Empty heading. No space between aria label attributes.   
-        - [Error](assets/documents/w3-validator-game-over-error.jpg) 
-        - [Results](assets/documents/w3-validator-game-over-error-fix.jpg)  
+       - [Error](assets/documents/w3-validator-game-over-error.jpg) 
+       - [Results](assets/documents/w3-validator-game-over-error-fix.jpg)  
      
   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate CSS. 
 
