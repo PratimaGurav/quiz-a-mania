@@ -29,7 +29,7 @@
 ## User Experience (UX)
 
 -   ### Site Goals
-     Quiz-a-mania is a interactive website which enables users to play quiz by answering a fixed set of questions. The quiz is set to test General Knowledge of users with multiple choice questions. Questions with choices are readout if you click the sound button. You score for every correct answer and get prompted if your answer is correct or incorrect. You have an option to submit your score and rank yourself on the high scores by providing your username.
+     Quiz-a-mania is an interactive website which enables users to play quiz by answering a fixed set of questions. The quiz is set to test General Knowledge of users with multiple choice questions. It includes a feature by which users can opt to listen to the questions and the respective options. Further users get prompted if their answer is correct or incorrect by color formatting and audio. Users score for every correct answer with an option to submit their score and rank themselevs on the high scores by providing their username.
 
 -   ### Target Audience    
       The site is targetted to everyone who loves to play online quiz with an aim to score high. 
@@ -66,7 +66,7 @@
         
 
     -   #### Imagery
-        Background image is used to strike and catch users attentions.
+        Background image is used to strike and catch users' attentions. The background has been kept consistent throughout the site for enahnced user experience.
          
 
 *   ### Wireframes
@@ -81,39 +81,42 @@
    - __The Scope__ 
       The scope of Quiz-a-mania has been created with the following features :
       - Interactive Quiz Application.
-      - Sound button to read out the current questions.
+      - Audio button to read out the current question and its options.
+      - Intantly display if the answer is correct or incorrect along with supporting audio.
       - Ability to submit scores to High-Scores.
       - Fully responsive design.
-      - Easy navigation bar which is completely responsive.
+      - Easy navigation bar which is consistent and completely responsive.
       - Help page with instructions on how to play.
       - Simplified feedback form.
   
     
+   - __Home Page__
+
+      - A logo mentioning the application name and navigation bar.
+      - Different links to play game, view high scores and the instructions.
+   
    - __Navigation Bar__
 
       Navigation menu with links to different pages within the application. It is same on all pages for simplicity and easy navigation.
       - Play button to start the quiz.
       - High scores to see the saved high scores.
-      - Help to know the instructions of the game.
-
-   - __Home Page__
-
-      A logo mentioning the application name and navigation bar.
+      - Help to know the instructions of the game.   
    
    - __Quiz__
       
       - The counter mentioning which question you are at currently.
-      - Sound button to be clicked to read out the current questions.
+      - Audio button can be clicked to read out the current questions and respective options.
       - Your current score.
       - The question which has to be answered.
-      - Audio for correct or incorrect answer.
       - 4 options to select from, out of which one is correct.
+      - Color formatting and audio for correct or incorrect answer.
+      
      
    - __Game Over__ 
       - Your score at the end of the game.
       - Text field to enter your username.
       - Save button to save your High scores.
-      - Play again button to start the quiz again
+      - Play again button to start the quiz again.
      
    - __High Scores__ 
      - Displays list of top 10 high scores in descending order of ranking.
@@ -176,7 +179,7 @@
         - [Error](assets/documents/help-page-formatting-error.jpg) 
         - [Results](assets/documents/help-page-formatting-error-fix.jpg)  
 
-  [JS Hint](https://jshint.com/) was used to validate every JS file of the project and does not show any errors.         
+  [JS Hint](https://jshint.com/) was used to validate every JS file of the project to ensure there are no erros.         
  
 
   - ### Lighthouse Results
@@ -223,33 +226,35 @@
    5. Click "Save".
    6. The page will automatically refresh and provide you with a link to the Live GitHub Page for the repository.
 
-  The Page can sometimes take longer to load and go live which is an expected behaviour. 
+  The page can sometimes take longer to load and go live which is an expected behaviour. 
 
  - ### Making a Local Clone
  
     1. Log in to GitHub and navigate to the [GitHub Repository](https://github.com/PratimaGurav/quiz-a-mania)
     2. To clone the repository using HTTPS, click Code and copy the address. 
+    3. Navigate to Git Bash and clone the repository.
+    4. Press Enter and your local clone will be created.
 
 
 ## Credits
 
   - ### Code
-    - [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) was used as inspiration and referred to build this quiz. 
-    - [SpeechSynthesis](https://codingislove.com/speech-with-javascript/) was used to implement speech synthesis to read out questions and to prompt correct or incorrect answers.
+    - [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) was used as an inspiration and referred to build this quiz. 
+    - [SpeechSynthesis](https://codingislove.com/speech-with-javascript/) was used to implement speech synthesis to read out questions and to prompt correct or incorrect    
+      answers.
     - [W3 Schools](https://www.w3schools.com/) was used throughout the project majorly for styling and alignment purpose.
 
   - ### Content
     The following websites were referred to gather quiz question for the project.  
-    [BBC Food Good](https://www.bbcgoodfood.com/howto/guide/food-quiz)
-    [GK Today](https://www.gktoday.in/)
-    [Quiz Wine](https://www.quizwine.com/)
+    - [BBC Food Good](https://www.bbcgoodfood.com/howto/guide/food-quiz)
+    - [GK Today](https://www.gktoday.in/)
+    - [Quiz Wine](https://www.quizwine.com/)
      
 
   - ### Media
     Background image used within this site is free and do not incur any copyright issues. This image has been provided by following website:
   
-    - [Pixabay](https://pixabay.com/illustrations/purple-abstract-background-1780371/)
-        
+    - [Pixabay](https://pixabay.com/illustrations/purple-abstract-background-1780371/)        
    
 
 ## Acknowledgements
