@@ -162,33 +162,36 @@
   
     
 ## Testing
+ 
+ - ### Validation
+  [W3C Markup Validator](https://validator.w3.org/nu/) was used to validate every HTML page of the project to ensure there were no syntax errors.
 
-  The [W3C Markup Validator](https://validator.w3.org/nu/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) were used to validate every page of the project to ensure there were no syntax errors in the project.
-
-   - Following errors were found and fixed while validation:-  
-      - (Index.html) No space between aria label attributes.   
-        - [Error](assets/documents/w3-validator-index-error.jpg) 
-        - [Results](assets/documents/w3-validator-index-error-fix.jpg)
-      - (Highscore.html) No space between aria label attributes.   
-        - [Error](assets/documents/w3-validator-highscore-error.jpg) 
-        - [Results](assets/documents/w3-validator-highscore-error-fix.jpg)  
-      - (Help.html) Element br not allowed as child element ol. No space between aria label attributes. 
-        (Fixes) Element br was removed and added margin between each ol  
-        - [Error](assets/documents/w3-validator-help-error1.jpg) 
-        - [Error](assets/documents/w3-validator-help-error2.jpg) 
-        - [Results](assets/documents/w3-validator-help-error-fix.jpg)
-      - (Game-over.html) Empty heading. No space between aria label attributes.   
-        - [Error](assets/documents/w3-validator-game-over-error.jpg) 
-        - [Results](assets/documents/w3-validator-game-over-error-fix.jpg)  
+    - Following errors were found and fixed while validation:-  
+        - (Index.html) No space between aria label attributes.   
+          - [Error](assets/documents/w3-validator-index-error.jpg) 
+          - [Results](assets/documents/w3-validator-index-error-fix.jpg)
+        - (Highscore.html) No space between aria label attributes.   
+          - [Error](assets/documents/w3-validator-highscore-error.jpg) 
+          - [Results](assets/documents/w3-validator-highscore-error-fix.jpg)  
+        - (Help.html) Element br not allowed as child element ol. No space between aria label attributes. 
+          (Fixes) Element br was removed and added margin between each ol  
+          - [Error](assets/documents/w3-validator-help-error1.jpg) 
+          - [Error](assets/documents/w3-validator-help-error2.jpg) 
+          - [Results](assets/documents/w3-validator-help-error-fix.jpg)
+        - (Game-over.html) Empty heading. No space between aria label attributes.   
+          - [Error](assets/documents/w3-validator-game-over-error.jpg) 
+          - [Results](assets/documents/w3-validator-game-over-error-fix.jpg)  
      
+  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate CSS. 
+
   [JS Hint](https://jshint.com/) was used to validate every JS file of the project to ensure there are no erros.         
   
   - ### UI Testing
-   - Alignment error: Questions and options containers width was changing as per the question length.
+    - Alignment error: Questions and options containers width was changing as per the question length.
       - Fixes: Questions container was given different id and adjusted the width.         
         - [Error](assets/documents/option-width-formatting-error.jpg) 
         - [Results](assets/documents/option-width-formatting-error-fix.jpg)  
-   - Help page was distorted. 
+    - Help page was distorted. 
       - Fixes: Width of the ol/list was adjusted accordingly. 
         - [Error](assets/documents/help-page-formatting-error.jpg) 
         - [Results](assets/documents/help-page-formatting-error-fix.jpg)  
