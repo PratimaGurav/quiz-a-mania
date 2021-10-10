@@ -302,6 +302,9 @@ form {
 #menu {
     font-size: 110%;
 }
+#menu li {
+    margin-bottom: 40px;
+}
 .container {
     height: 90vh;
 }
@@ -310,10 +313,11 @@ form {
     margin-left: 6rem;
 }
 #question {
-    font-size: 200%;
+    font-size: 150%;
 }
 .choice-container {
-    width: 70%;
+    width: 60%;
+    font-size: 1.2rem;
 }
 .help-div {
     width: 60vw;
