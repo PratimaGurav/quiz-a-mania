@@ -296,14 +296,14 @@ form {
 /*Smaller mobile device fix. */
 @media screen and (max-width: 425px) {
 #logo {
-    font-size: 120%;
-    margin-left: 40px;
+    font-size: 100%;
+    margin-left: 30px;
 }
 #menu {
     font-size: 110%;
 }
 .container {
-    height: 70vh;
+    height: 90vh;
 }
 #heading {
     font-size: 200%;
@@ -313,7 +313,7 @@ form {
     font-size: 200%;
 }
 .choice-container {
-    width: 80%;
+    width: 70%;
 }
 .help-div {
     width: 60vw;
