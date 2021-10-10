@@ -58,7 +58,8 @@
 
 -   ### Design
     -   #### Colour Scheme
-        The main colours used are Electric Lavender, Cookie Brown, Purple Flower, Daisy Bush, Medium Green, Jasper. These colours complement eachother and maintain good contrast levels.
+        The main colours used are Very Light Purple, Cookie Brown, Purple Flower, Daisy Bush,
+        Medium Green, Jasper. These colours complement eachother and maintain good contrast levels.
           
     
     -   #### Typography 
@@ -79,6 +80,7 @@
  ### Existing Features
 
    - __The Scope__ 
+
       The scope of Quiz-a-mania has been created with the following features :
       - Interactive Quiz Application.
       - Audio button to read out the current question and its options.
@@ -220,8 +222,8 @@
   - ### Further Testing
     -   The Website was tested on Google Chrome, Microsoft Edge, Safari and Mozilla Firefox browsers.
     -   The website was viewed on a variety of devices such as Desktop, Laptop, iPad, iPhone 6, 7 & 8. 
-    -   A large amount of testing was done to ensure that all pages were linking correctly.
-    -   Friends and family members were asked to review the site to point out any bugs and/or user experience issues. 
+    -   A large amount of testing was done to ensure that all pages were linked correctly.
+    -   Friends and family members were asked to play the quiz and provide feedback for any user experience issues. 
 
   - ### Known Bugs
 
