@@ -99,10 +99,10 @@
    
    - __Navigation Bar__
 
-      Navigation menu with links to different pages within the application. It is same on all pages for simplicity and easy navigation.
+      Navigation menu with links to different pages within the application. It is consistent on all pages for simplicity and easy navigation. Additionally, it highlights the current page where the user is.
       - Play button to start the quiz.
       - High scores to see the saved high scores.
-      - Help to know the instructions of the game.   
+      - Help to know the instructions of the game and the feedback form.  
    
    - __Quiz__
       
