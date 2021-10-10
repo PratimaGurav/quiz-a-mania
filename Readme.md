@@ -233,7 +233,7 @@
 
   - ### Known Bugs
 
-    -  
+    -  There are no outstanding issues found.
 
 ## Deployment
 
