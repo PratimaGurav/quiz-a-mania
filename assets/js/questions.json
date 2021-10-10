@@ -231,6 +231,13 @@
         "choice3": "Woodrow Wilson",
         "choice4": "Franklin D. Roosevelt",
         "answer": 4
+      },
+      { 
+        "question": "What is used to download apps on an Android Device?",
+        "choice1": "Google Duo",
+        "choice2": "Play Store",
+        "choice3": "Opera Mini",
+        "choice4": "UC Browser",
+        "answer": 2
       }
-      
 ]
