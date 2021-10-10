@@ -63,7 +63,7 @@
           
     
     -   #### Typography 
-        Gluten font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Architects+Daughter is used for headings with Sans Serif as the fallback.    
+        Raleway italic font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat italic is used for headings with Sans Serif as the fallback.    
         
 
     -   #### Imagery
