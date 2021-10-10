@@ -104,6 +104,7 @@
       - Play button to start the quiz.
       - High scores to see the saved high scores.
       - Help to know the instructions of the game and the feedback form.  
+      ![Navigation Bar](/assets/documents/navigation-bar.jpg)
    
    - __Quiz__
       
@@ -113,6 +114,7 @@
       - The question which has to be answered.
       - 4 options to select from, out of which one is correct.
       - Color formatting and audio for correct or incorrect answer.
+      ![Quiz Page](/assets/documents/questions-page.jpg)
       
      
    - __Game Over__ 
@@ -120,15 +122,18 @@
       - Text field to enter your username.
       - Save button to save your High scores.
       - Play again button to start the quiz again.
+      ![Game Over Page](/assets/documents/game-over-page.jpg)
      
    - __High Scores__ 
      - Displays list of top 10 high scores in descending order of ranking.
      - Play button to start the quiz.
      - Clear Scores to clear the high scores.
+     ![High Scores Page](/assets/documents/highscores-page.jpg)
 
    - __Help__ 
      - Instructions on how to play the quiz.
      - Feedback form to provide the feedback.
+     ![Help Page](/assets/documents/help-page.jpg)
 
  ### Future Enhancements
   
