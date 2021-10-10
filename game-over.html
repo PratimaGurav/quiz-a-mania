@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Fun, facts and interactive quiz to test your general knowledge.">
     <meta name="keywords" content="Facts, Did You Know?, Quiz-a-mania, Quiz, Highscores, Multiple Choice Questions">
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/17e4dc5f3c.js" crossorigin="anonymous"></script>
+    <!--link to style.css-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Quiz-a-mania:Game-Over!</title>
-</head>
+ </head>
   <body>
-    <!--header section-->
+    <!--Header section-->
     <header>
-        <!--Logo for site.-->
-        <a id="logo" href="index.html"><h1>Quiz-a-mania</h1></a>
-        <!--Header Navigation.-->
-        <nav>
-          <ul id="menu">
-            <li>
-              <a href="help.html">Help</a>
-            </li>
-            <li>
-              <a href="highscore.html">High Scores</a>
-            </li>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <!--Logo for site.-->
+      <a id="logo" href="index.html"><h1>Quiz-a-mania</h1></a>
+      <!--Header Navigation.-->
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="help.html">Help</a>
+          </li>
+          <li>
+            <a href="highscore.html">High Scores</a>
+          </li>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+      <!--Main content of the page-->
       <div class="container">
           <div id="end" class="center column">
+            <!--Displays total score in this round -->
             <h1>Your Score:</h1>
             <br>
             <h2 id="finalScore"></h2>
+            <!--Username-->
             <form id="score-card">
               <input type="text" name="username" id="username" placeholder="Enter username to save score" required/>
               <button type="submit" class="button" id="saveScore" 
@@ -42,6 +48,7 @@
             <a class="button" href="question.html">Play Again <i class="far fa-play-circle"></i></a>
           </div>
         </div>
+        <!--Link to supporting js.-->
     <script src="assets/js/game-over.js"></script>
   </body>
 </html>

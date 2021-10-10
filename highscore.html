@@ -6,38 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Fun, facts and interactive quiz to test your general knowledge.">
     <meta name="keywords" content="Facts, Did You Know?, Quiz-a-mania, Quiz, Highscores, Multiple Choice Questions">
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/17e4dc5f3c.js" crossorigin="anonymous"></script>
+    <!--link to style.css-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Quiz-a-mania:HighScores</title>
   </head>
   <body>
-    <!--header section-->
+    <!--Header section-->
     <header>
-        <!--Logo for site.-->
+      <!--Logo for site.-->
       <a id="logo" href="index.html"><h1>Quiz-a-mania</h1></a>
-        <!--Header Navigation.-->
-        <nav>
-          <ul id="menu">
-            <li>
-              <a href="help.html">Help</a>
-            </li>
-            <li>
-              <a href="highscore.html" class="active">High Scores</a>
-            </li>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-          </ul>
-        </nav>
-    </header>
-      <!--main-->
-      <div class="container">
-        <div id="highScores" class="center column">
-          <h2 id="finalScore">High Scores</h2>
-          <ul id="highScoresList"></ul>
+      <!--Header Navigation.-->
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="help.html">Help</a>
+          </li>
+          <li>
+            <a href="highscore.html" class="active">High Scores</a>
+          </li>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+        </ul>
+      </nav>
+   </header>
+      <!--Main content of the page-->
+    <div class="container">
+      <!--Display high scores-->
+      <div id="highScores" class="center column">
+         <h2 id="finalScore">High Scores</h2>
+         <ul id="highScoresList"></ul>
+          <!--Buttons to play quiz again and clear scores-->
           <a class="button" href="question.html">Play <i class="far fa-play-circle"></i></a>
           <div class="button" onclick="clearScores()">Clear Scores</div>
-        </div>
       </div>
+    </div>
+    <!--Link to supporting JS.-->
     <script src="assets/js/highscore.js"></script>
-  </body>
+   </body>
 </html>
