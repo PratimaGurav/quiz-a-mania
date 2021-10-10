@@ -96,6 +96,7 @@
 
       - A logo mentioning the application name and navigation bar.
       - Different links to play game, view high scores and the instructions.
+      ![Home Page](/assets/documents/home-page.jpg)
    
    - __Navigation Bar__
 
