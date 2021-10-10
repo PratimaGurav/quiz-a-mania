@@ -14,6 +14,7 @@ username.addEventListener('keyup', () => {
     saveScore.disabled = !username.value;
 });
 
+//populate score with username and score, push score to highScores, sort highScores by asscending order of scores, splice highScores, store highScores in localStorage and return to homepage. This function is called onclick in game-over.html
 function saveHighScore(e){
     e.preventDefault();
 
