@@ -129,12 +129,12 @@
      - Instructions on how to play the quiz.
      - Feedback form to provide the feedback.
 
-- ### Future Enhancements 
-
-    - Add option to mute the audio.
-    - Add difficulty levels.
-    - Add option to select subject for the quiz.
-    - Add timer and bonus points for each questions to be answered.
+ ### Future Enhancements
+  
+  - Add option to mute the audio.
+  - Add difficulty levels.
+  - Add option to select subject for the quiz.
+  - Add timer and bonus points for each questions to be answered.
 
 
 ## Technologies Used
@@ -259,10 +259,9 @@
 
   - ### Code
     - [James Q Quick](https://www.youtube.com/playlist?list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx) was used as an inspiration and referred to build this quiz. 
-    - [SpeechSynthesis](https://codingislove.com/speech-with-javascript/) was used to implement speech synthesis to read out questions and to prompt correct or incorrect    
-      answers.
+    - [SpeechSynthesis](https://codingislove.com/speech-with-javascript/) was used to implement speech synthesis to read out questions and options. After answering the question, it also prompts correct or incorrect answer instantly.
     - [W3 Schools](https://www.w3schools.com/) was used throughout the project majorly for styling and alignment purpose.
-    - [Stack Overflow:](https://stackoverflow.com/) was refered for resloution of technical querries.
+    - [Stack Overflow](https://stackoverflow.com/) was refered for resloution of technical querries.
 
   - ### Content
     The following websites were referred to gather quiz question for the project.  
